@@ -1,0 +1,43 @@
+{
+    "packages": [
+        {
+            "name": "latepoint/cerber",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/latepoint/latepoint-cerber.git",
+                "reference": "38dd39149db589becb8ce49186bf0450d2f29828"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/latepoint/latepoint-cerber/zipball/38dd39149db589becb8ce49186bf0450d2f29828",
+                "reference": "38dd39149db589becb8ce49186bf0450d2f29828",
+                "shasum": ""
+            },
+            "time": "2023-03-07T20:59:42+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "LatePoint\\Cerber\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Tamerlan Soziev",
+                    "email": "tamik@soziev.com"
+                }
+            ],
+            "description": "Router for latepoint plugin",
+            "support": {
+                "issues": "https://github.com/latepoint/latepoint-cerber/issues",
+                "source": "https://github.com/latepoint/latepoint-cerber/tree/1.0.3"
+            },
+            "install-path": "../latepoint/cerber"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

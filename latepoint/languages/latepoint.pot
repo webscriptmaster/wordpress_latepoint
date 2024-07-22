@@ -1,0 +1,5436 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LatePoint\n"
+"POT-Creation-Date: 2023-08-11 00:16-0700\n"
+"PO-Revision-Date: 2023-08-11 00:16-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: latepoint.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+
+#: blocks/src/book-button/edit.js:163 blocks/src/book-form/edit.js:293
+msgid "Preselected Agent"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:171 blocks/src/book-form/edit.js:301
+msgid "Preselected Service"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:179 blocks/src/book-form/edit.js:309
+msgid "Preselected Service Category"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:187 blocks/src/book-form/edit.js:317
+msgid "Preselected Location"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:194 blocks/src/book-form/edit.js:325
+msgid "Preselected Booking Start Date"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:202 blocks/src/book-form/edit.js:333
+msgid "Preselected Booking Start Time"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:210 blocks/src/book-form/edit.js:341
+msgid "Preselected Duration"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:218 blocks/src/book-form/edit.js:349
+msgid "Preselected Total Attendees"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:237 lib/models/service_model.php:53
+#: lib/views/services/_form.php:18
+msgid "Background Color"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:249
+msgid "Text Color"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:262
+msgid "Small"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:267
+msgid "Normal"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:272
+msgid "Big"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:284
+msgid "Border Radius"
+msgstr ""
+
+#: blocks/src/book-button/edit.js:304
+msgid "Alignment"
+msgstr ""
+
+#: latepoint.php:523
+msgid "Once every 5 minutes"
+msgstr ""
+
+#: latepoint.php:537
+msgid "Email Settings"
+msgstr ""
+
+#: latepoint.php:541
+msgid "From Name"
+msgstr ""
+
+#: latepoint.php:542
+msgid "From Email Address"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+#: latepoint.php:722 latepoint.php:723 latepoint.php:739
+msgid "LatePoint"
+msgstr ""
+
+#: latepoint.php:822 latepoint.php:916 lib/helpers/agent_helper.php:38
+#: lib/helpers/calendar_helper.php:140 lib/helpers/time_helper.php:54
+#: lib/models/booking_model.php:685 lib/models/booking_model.php:694
+#: lib/views/calendars/view.php:30
+msgid "Today"
+msgstr ""
+
+#: latepoint.php:825 latepoint.php:922 lib/helpers/agent_helper.php:75
+#: lib/helpers/timeline_helper.php:80 lib/helpers/timeline_helper.php:137
+msgid "Not Available"
+msgstr ""
+
+#: latepoint.php:830 lib/views/customer_cabinet/_booking_tile.php:28
+#: lib/views/manage_booking_by_key/show.php:39
+msgid "Are you sure you want to cancel this appointment?"
+msgstr ""
+
+#: latepoint.php:831
+msgid "Space Available"
+msgstr ""
+
+#: latepoint.php:832
+msgid "Spaces Available"
+msgstr ""
+
+#: latepoint.php:848 latepoint.php:936
+msgid "can not be blank"
+msgstr ""
+
+#: latepoint.php:849 latepoint.php:937
+msgid "is invalid"
+msgstr ""
+
+#: latepoint.php:917
+msgid "Copied"
+msgstr ""
+
+#: latepoint.php:918
+msgid "Click to copy"
+msgstr ""
+
+#: latepoint.php:919
+msgid "Are you sure you want to approve this booking?"
+msgstr ""
+
+#: latepoint.php:920
+msgid "Are you sure you want to reject this booking?"
+msgstr ""
+
+#: latepoint.php:923 lib/misc/process_action.php:110
+#: lib/views/addons/load_addons_list.php:95 lib/views/agents/_form.php:39
+#: lib/views/processes/_form.php:21 lib/views/services/_form.php:22
+msgid "Active"
+msgstr ""
+
+#: latepoint.php:924 lib/helpers/replacer_helper.php:334
+#: lib/helpers/time_helper.php:102 lib/models/booking_model.php:803
+#: lib/views/bookings/quick_edit.php:94 lib/views/settings/general.php:241
+#: lib/views/settings/general.php:273
+msgid "minutes"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:18
+msgid "Activities"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:26
+msgid "Activities log cleared"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:36
+#: lib/views/activities/index.php:27 lib/views/activities/index.php:53
+#: lib/views/steps/partials/_booking_summary.php:110
+msgid "Type"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:37
+msgid "Agent ID"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:38
+#: lib/controllers/transactions_controller.php:104
+#: lib/views/transactions/index.php:30 lib/views/transactions/index.php:42
+#: lib/views/transactions/index.php:68
+msgid "Booking ID"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:39
+msgid "Service ID"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:40
+msgid "Customer ID"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:41
+msgid "Location ID"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:42
+msgid "Action By User Type"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:43
+msgid "Action By User ID"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:44
+msgid "Date, Time"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:45
+msgid "Description"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:126
+#: lib/controllers/agents_controller.php:28
+msgid "Index"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:136
+msgid "Activity Removed"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:139
+#: lib/controllers/activities_controller.php:143
+msgid "Error Removing Activity"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:161
+#: lib/controllers/process_jobs_controller.php:35
+#: lib/controllers/process_jobs_controller.php:55
+#: lib/views/bookings/pending_approval.php:14
+#: lib/views/manage_booking_by_key/show.php:16
+#: lib/views/manage_booking_by_key/show.php:25
+#: lib/views/shared/_template_variables.php:17
+#: lib/views/shared/_template_variables.php:72
+msgid "Status:"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:162
+#: lib/controllers/process_jobs_controller.php:36
+#: lib/controllers/process_jobs_controller.php:56
+msgid "Processed on:"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:163
+msgid "Errors:"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:168
+#: lib/controllers/activities_controller.php:173
+#: lib/controllers/activities_controller.php:178
+#: lib/controllers/activities_controller.php:183
+#: lib/controllers/activities_controller.php:188
+msgid "View Booking"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:169
+#: lib/controllers/activities_controller.php:174
+#: lib/controllers/activities_controller.php:179
+#: lib/controllers/activities_controller.php:184
+msgid "Created On:"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:189
+msgid "Updated On:"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:195
+#: lib/controllers/activities_controller.php:199
+#: lib/misc/process_action.php:339 lib/misc/process_action.php:343
+#: lib/views/notifications/templates_index.php:33
+#: lib/views/notifications/templates_index.php:38
+msgid "To:"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:203
+msgid "URL:"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:209
+#: lib/controllers/process_jobs_controller.php:32
+msgid "Process:"
+msgstr ""
+
+#: lib/controllers/activities_controller.php:213
+msgid "Error Message:"
+msgstr ""
+
+#: lib/controllers/addons_controller.php:18 lib/helpers/menu_helper.php:54
+msgid "Add-ons"
+msgstr ""
+
+#: lib/controllers/addons_controller.php:25
+msgid "Addon deleted"
+msgstr ""
+
+#: lib/controllers/addons_controller.php:30
+msgid "Install Locations Add-on"
+msgstr ""
+
+#: lib/controllers/addons_controller.php:31 lib/helpers/location_helper.php:97
+#: lib/helpers/menu_helper.php:52 lib/helpers/menu_helper.php:105
+#: lib/helpers/roles_helper.php:299
+msgid "Locations"
+msgstr ""
+
+#: lib/controllers/addons_controller.php:37
+msgid "Install Taxes Add-on"
+msgstr ""
+
+#: lib/controllers/addons_controller.php:47
+msgid "Addon deactivated"
+msgstr ""
+
+#: lib/controllers/addons_controller.php:59
+msgid "Addon activated"
+msgstr ""
+
+#: lib/controllers/addons_controller.php:82
+msgid "Addon installed successfully."
+msgstr ""
+
+#: lib/controllers/agents_controller.php:19 lib/helpers/menu_helper.php:51
+#: lib/helpers/roles_helper.php:297 lib/views/search/query_results.php:38
+msgid "Agents"
+msgstr ""
+
+#: lib/controllers/agents_controller.php:43
+#: lib/controllers/agents_controller.php:44
+msgid "Create New Agent"
+msgstr ""
+
+#: lib/controllers/agents_controller.php:69
+#: lib/controllers/agents_controller.php:70
+msgid "Edit Agent"
+msgstr ""
+
+#: lib/controllers/agents_controller.php:117
+msgid "Agent Created. ID:"
+msgstr ""
+
+#: lib/controllers/agents_controller.php:120
+msgid "Agent Updated. ID:"
+msgstr ""
+
+#: lib/controllers/agents_controller.php:147
+msgid "Agent Removed"
+msgstr ""
+
+#: lib/controllers/agents_controller.php:150
+#: lib/controllers/agents_controller.php:154
+msgid "Error Removing Agent"
+msgstr ""
+
+#: lib/controllers/agents_controller.php:186
+msgid "Error Accessing Agent"
+msgstr ""
+
+#: lib/controllers/auth_controller.php:28
+msgid "You have been logged out of your account."
+msgstr ""
+
+#: lib/controllers/auth_controller.php:38
+#: lib/controllers/auth_controller.php:97
+msgid "Welcome back"
+msgstr ""
+
+#: lib/controllers/auth_controller.php:41
+msgid "Sorry, that email or password didn't work."
+msgstr ""
+
+#: lib/controllers/auth_controller.php:68
+msgid "Error creating wp user"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:18
+#: lib/controllers/calendars_controller.php:22
+#: lib/controllers/steps_controller.php:20
+#: lib/controllers/steps_controller.php:21 lib/helpers/menu_helper.php:36
+#: lib/helpers/menu_helper.php:91 lib/views/bookings/index.php:25
+#: lib/views/customers/_form.php:100
+#: lib/views/dashboard/widget_daily_bookings_chart.php:61
+#: lib/views/search/query_results.php:9
+msgid "Appointments"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:73
+#: lib/controllers/bookings_controller.php:74
+msgid "Pending Appointments"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:113 lib/views/agents/_form.php:107
+#: lib/views/agents/_form.php:109 lib/views/agents/_form.php:114
+#: lib/views/calendars/view.php:63 lib/views/calendars/view.php:109
+#: lib/views/calendars/view.php:137 lib/views/services/_form.php:135
+#: lib/views/services/_form.php:137 lib/views/services/_form.php:143
+msgid "All"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:224
+#: lib/controllers/customers_controller.php:283
+#: lib/controllers/transactions_controller.php:102
+#: lib/views/bookings/index.php:42 lib/views/bookings/index.php:60
+#: lib/views/bookings/index.php:110 lib/views/customers/index.php:26
+#: lib/views/customers/index.php:39 lib/views/customers/index.php:66
+#: lib/views/transactions/index.php:28 lib/views/transactions/index.php:40
+#: lib/views/transactions/index.php:66
+msgid "ID"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:225
+#: lib/helpers/booking_helper.php:164 lib/misc/process_event.php:179
+#: lib/misc/process_event.php:298 lib/misc/process_event.php:308
+#: lib/models/booking_model.php:49 lib/models/booking_model.php:74
+#: lib/views/bookings/index.php:43 lib/views/bookings/index.php:111
+msgid "Service"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:226
+msgid "Start Date & Time"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:227
+#: lib/views/bookings/quick_edit.php:89
+msgid "Duration"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:228
+#: lib/controllers/transactions_controller.php:105 lib/misc/user.php:334
+#: lib/views/bookings/index.php:48 lib/views/bookings/index.php:116
+#: lib/views/bookings/pending_approval.php:40
+#: lib/views/bookings/quick_edit.php:171
+#: lib/views/shared/_template_variables.php:32
+#: lib/views/steps/partials/_booking_summary.php:50
+#: lib/views/transactions/index.php:31 lib/views/transactions/index.php:69
+msgid "Customer"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:229
+msgid "Customer Phone"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:230
+msgid "Customer Email"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:231 lib/misc/process_event.php:176
+#: lib/misc/process_event.php:299 lib/misc/process_event.php:309
+#: lib/misc/user.php:320 lib/models/booking_model.php:50
+#: lib/models/booking_model.php:75 lib/views/bookings/index.php:46
+#: lib/views/bookings/index.php:114 lib/views/bookings/pending_approval.php:21
+#: lib/views/bookings/quick_edit.php:117 lib/views/calendars/scopes/_day.php:63
+#: lib/views/calendars/scopes/_month.php:29
+#: lib/views/customer_cabinet/_booking_tile.php:42
+#: lib/views/shared/_template_variables.php:45
+#: lib/views/steps/partials/_booking_summary.php:78
+msgid "Agent"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:232
+msgid "Agent Phone"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:233
+msgid "Agent Email"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:234
+#: lib/controllers/transactions_controller.php:109
+#: lib/misc/process_action.php:110 lib/models/booking_model.php:76
+#: lib/views/agents/_form.php:39 lib/views/bookings/index.php:49
+#: lib/views/bookings/index.php:117 lib/views/bookings/quick_edit.php:128
+#: lib/views/customer_cabinet/_booking_tile.php:46
+#: lib/views/process_jobs/index.php:26 lib/views/process_jobs/index.php:60
+#: lib/views/processes/_form.php:18 lib/views/services/_form.php:22
+#: lib/views/transactions/index.php:35 lib/views/transactions/index.php:73
+msgid "Status"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:235
+msgid "Price"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:236
+msgid "Booked On"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:361
+#: lib/controllers/customer_cabinet_controller.php:159
+#: lib/controllers/manage_booking_by_key_controller.php:178
+#: lib/controllers/manage_booking_by_key_controller.php:201
+msgid "Appointment Status Updated"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:364
+#: lib/controllers/customer_cabinet_controller.php:162
+#: lib/controllers/manage_booking_by_key_controller.php:181
+#: lib/controllers/manage_booking_by_key_controller.php:204
+msgid "Error Updating Booking Status!"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:470
+msgid "Appointment Updated: ID#"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:475
+msgid "Appointment Added: ID#"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:527
+msgid "Appointment has been deleted"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:530
+msgid "Not Allowed"
+msgstr ""
+
+#: lib/controllers/bookings_controller.php:534
+#: lib/controllers/settings_controller.php:106
+msgid "Invalid Data"
+msgstr ""
+
+#: lib/controllers/calendars_controller.php:42
+#: lib/controllers/service_categories_controller.php:63
+#: lib/models/service_category_model.php:68
+#: lib/views/bookings/quick_edit.php:49 lib/views/bookings/quick_edit.php:52
+#: lib/views/services/index.php:3
+msgid "Uncategorized"
+msgstr ""
+
+#: lib/controllers/controller.php:26 lib/helpers/agent_helper.php:80
+#: lib/helpers/roles_helper.php:300
+#: lib/views/bookings/grouped_bookings_quick_view.php:23
+msgid "Bookings"
+msgstr ""
+
+#: lib/controllers/controller.php:27
+#: lib/controllers/dashboard_controller.php:19 lib/helpers/menu_helper.php:34
+#: lib/helpers/menu_helper.php:89
+msgid "Dashboard"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:91
+#: lib/controllers/manage_booking_by_key_controller.php:107
+#: lib/models/booking_model.php:439 lib/models/booking_model.php:448
+#: lib/models/booking_model.php:454 lib/models/booking_model.php:460
+msgid ""
+"Unfortunately the selected time slot is not available anymore, please select "
+"another timeslot."
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:116
+#: lib/controllers/manage_booking_by_key_controller.php:135
+msgid "Error! Please try again later"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:122
+#: lib/controllers/manage_booking_by_key_controller.php:141
+msgid "Error! LKDFU343"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:144
+#: lib/controllers/manage_booking_by_key_controller.php:165
+msgid "Reschedule is not allowed"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:166
+#: lib/controllers/manage_booking_by_key_controller.php:185
+msgid "Not allowed to cancel"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:191
+#: lib/controllers/customers_controller.php:143
+msgid "Information Saved"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:199
+#: lib/controllers/customers_controller.php:152
+msgid "Invalid customer ID"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:220
+msgid "Invalid Booking"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:248
+msgid "Invalid password or email"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:273
+msgid "Error! Email was not sent."
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:273
+msgid "Email does not match any customer"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:304
+msgid "Invalid Secret Key"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:309
+msgid "Error!"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:327
+msgid "Your password was successfully updated."
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:329
+#: lib/controllers/customer_cabinet_controller.php:358
+msgid "Error! Message Code: KS723J"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:334
+msgid "Error! Passwords do not match."
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:338
+#: lib/models/booking_model.php:553
+msgid "Customer Not Found"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:356
+msgid "Account Password Set"
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:363
+msgid "Error! Password is empty."
+msgstr ""
+
+#: lib/controllers/customer_cabinet_controller.php:366
+msgid "Error! Message Code: JS76SD"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:18 lib/helpers/menu_helper.php:38
+#: lib/helpers/menu_helper.php:93 lib/helpers/menu_helper.php:95
+#: lib/helpers/roles_helper.php:301 lib/views/customers/index.php:5
+#: lib/views/search/query_results.php:22
+msgid "Customers"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:26
+msgid "Customer Removed"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:29
+#: lib/controllers/customers_controller.php:33
+msgid "Error Removing Customer"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:46
+msgid "Customer is now allowed to book without password"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:53
+msgid "Error setting customer as guest"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:66 lib/helpers/menu_helper.php:96
+#: lib/views/customers/index.php:17 lib/views/steps/_contact.php:12
+msgid "New Customer"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:67
+msgid "Create New Customer"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:81
+#: lib/controllers/customers_controller.php:82
+msgid "Edit Customer"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:116
+msgid "Customer Created. ID:"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:137
+msgid "Access Restricted"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:194
+msgid "Error Accessing Customer"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:212
+msgid "Customers Connected"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:224
+msgid "Customer Disconnected"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:236
+msgid "Customer Connected"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:284
+#: lib/views/processes/_form.php:26
+msgid "Name"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:285
+#: lib/views/customers/index.php:28 lib/views/customers/index.php:68
+msgid "Phone"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:286
+#: lib/helpers/notifications_helper.php:31 lib/views/customers/index.php:29
+#: lib/views/customers/index.php:69
+msgid "Email"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:287
+msgid "Total Appointments"
+msgstr ""
+
+#: lib/controllers/customers_controller.php:288
+#: lib/views/customers/index.php:35 lib/views/customers/index.php:75
+msgid "Registered On"
+msgstr ""
+
+#: lib/controllers/debug_controller.php:18
+msgid "LatePoint Status"
+msgstr ""
+
+#: lib/controllers/debug_controller.php:24
+#: lib/controllers/debug_controller.php:31
+msgid "DB Version was reset"
+msgstr ""
+
+#: lib/controllers/integrations_controller.php:18
+#: lib/helpers/menu_helper.php:74
+msgid "Integrations"
+msgstr ""
+
+#: lib/controllers/notifications_controller.php:17
+#: lib/helpers/menu_helper.php:62
+msgid "Notifications"
+msgstr ""
+
+#: lib/controllers/notifications_controller.php:28
+msgid "Email Notification Templates"
+msgstr ""
+
+#: lib/controllers/notifications_controller.php:31
+msgid "SMS Notification Templates"
+msgstr ""
+
+#: lib/controllers/process_jobs_controller.php:24
+msgid "Process Jobs"
+msgstr ""
+
+#: lib/controllers/process_jobs_controller.php:32
+msgid "Trigger:"
+msgstr ""
+
+#: lib/controllers/process_jobs_controller.php:34
+msgid "Job Results"
+msgstr ""
+
+#: lib/controllers/process_jobs_controller.php:57
+msgid "Error:"
+msgstr ""
+
+#: lib/controllers/process_jobs_controller.php:90
+msgid "Job cancelled"
+msgstr ""
+
+#: lib/controllers/processes_controller.php:24 lib/helpers/menu_helper.php:67
+#: lib/helpers/menu_helper.php:69
+msgid "Processes"
+msgstr ""
+
+#: lib/controllers/processes_controller.php:86
+msgid "Process Removed"
+msgstr ""
+
+#: lib/controllers/processes_controller.php:89
+#: lib/controllers/processes_controller.php:93
+msgid "Error Removing Process"
+msgstr ""
+
+#: lib/controllers/processes_controller.php:160
+msgid "Process Saved"
+msgstr ""
+
+#: lib/controllers/processes_controller.php:163
+msgid "Error saving process"
+msgstr ""
+
+#: lib/controllers/processes_controller.php:243
+msgid "Run complete"
+msgstr ""
+
+#: lib/controllers/processes_controller.php:243
+msgid "view logs"
+msgstr ""
+
+#: lib/controllers/processes_controller.php:246
+msgid "Trigger conditions not met"
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:18
+#: lib/controllers/service_categories_controller.php:19
+msgid "Service Categories"
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:38
+#: lib/controllers/service_categories_controller.php:39
+#: lib/controllers/services_controller.php:57
+#: lib/controllers/services_controller.php:58
+msgid "Create New Service"
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:95
+msgid "Service Category Removed"
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:98
+msgid "Error Removing Service Category. Error: FJI8321"
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:102
+msgid "Error Removing Service Category. Error: SIF2348"
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:118
+msgid "Service Order Updated"
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:132
+msgid "Service Categories Order Updated"
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:155
+msgid "Service Category Created. ID: "
+msgstr ""
+
+#: lib/controllers/service_categories_controller.php:175
+msgid "Service Category Updated. ID: "
+msgstr ""
+
+#: lib/controllers/services_controller.php:19
+#: lib/helpers/booking_helper.php:710 lib/helpers/menu_helper.php:45
+#: lib/helpers/menu_helper.php:47 lib/helpers/menu_helper.php:99
+#: lib/helpers/menu_helper.php:101 lib/helpers/roles_helper.php:298
+#: lib/views/search/query_results.php:53
+msgid "Services"
+msgstr ""
+
+#: lib/controllers/services_controller.php:29
+#: lib/controllers/services_controller.php:30
+#: lib/views/services/_service_index_item.php:36
+msgid "Edit Service"
+msgstr ""
+
+#: lib/controllers/services_controller.php:132
+msgid "Service Created. ID:"
+msgstr ""
+
+#: lib/controllers/services_controller.php:135
+msgid "Service Updated. ID:"
+msgstr ""
+
+#: lib/controllers/services_controller.php:167
+msgid "Service Removed"
+msgstr ""
+
+#: lib/controllers/services_controller.php:170
+#: lib/controllers/services_controller.php:174
+msgid "Error Removing Service"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:19 lib/helpers/menu_helper.php:53
+#: lib/helpers/menu_helper.php:55 lib/helpers/roles_helper.php:304
+#: lib/views/partials/_top_bar.php:62
+msgid "Settings"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:43
+msgid "Default Fields Updated"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:63
+msgid "Pages Setup"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:73
+msgid "Payment Processing"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:86
+msgid "Work Schedule Settings"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:94 lib/helpers/menu_helper.php:57
+msgid "General"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:103
+msgid "Date Range Schedule Removed"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:122
+msgid "Custom Day Schedule Removed"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:125
+msgid "Invalid Date"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:136
+msgid "Step Settings"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:152
+msgid "Step Updated: "
+msgstr ""
+
+#: lib/controllers/settings_controller.php:175
+msgid "Step Ordering Updated "
+msgstr ""
+
+#: lib/controllers/settings_controller.php:195
+msgid "Columns Saved"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:200
+#: lib/controllers/settings_controller.php:275
+msgid "Work Schedule Updated"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:319
+msgid "Settings Updated"
+msgstr ""
+
+#: lib/controllers/settings_controller.php:322
+msgid "Settings Updated With Errors:"
+msgstr ""
+
+#: lib/controllers/steps_controller.php:101
+msgid "Invalid booking intent key"
+msgstr ""
+
+#: lib/controllers/todos_controller.php:21
+msgid "Tasks"
+msgstr ""
+
+#: lib/controllers/todos_controller.php:22
+msgid "Todos"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:17
+#: lib/helpers/roles_helper.php:302 lib/views/bookings/quick_edit.php:248
+msgid "Transactions"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:38
+msgid "Transaction Removed"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:41
+#: lib/controllers/transactions_controller.php:45
+msgid "Error Removing Transaction"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:103
+#: lib/views/transactions/index.php:29 lib/views/transactions/index.php:41
+#: lib/views/transactions/index.php:67
+msgid "Token"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:106
+#: lib/views/transactions/edit_form.php:44 lib/views/transactions/index.php:32
+#: lib/views/transactions/index.php:70
+msgid "Processor"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:107
+#: lib/views/transactions/edit_form.php:47 lib/views/transactions/index.php:33
+#: lib/views/transactions/index.php:71
+msgid "Method"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:108
+#: lib/views/steps/partials/_booking_summary.php:111
+#: lib/views/steps/partials/_booking_summary.php:113
+#: lib/views/transactions/edit_form.php:23 lib/views/transactions/index.php:34
+#: lib/views/transactions/index.php:46 lib/views/transactions/index.php:72
+msgid "Amount"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:110
+#: lib/views/transactions/index.php:36 lib/views/transactions/index.php:74
+msgid "Funds status"
+msgstr ""
+
+#: lib/controllers/transactions_controller.php:111
+#: lib/views/calendars/scopes/_month.php:29
+#: lib/views/calendars/scopes/_week.php:38
+#: lib/views/transactions/edit_form.php:26 lib/views/transactions/index.php:37
+#: lib/views/transactions/index.php:75
+msgid "Date"
+msgstr ""
+
+#: lib/controllers/updates_controller.php:33
+msgid "License Deactivated"
+msgstr ""
+
+#: lib/controllers/wizard_controller.php:22
+msgid "Wizard"
+msgstr ""
+
+#: lib/controllers/wizard_controller.php:26
+#: lib/views/wizard/steps/_agents.php:2
+msgid "Create Agents"
+msgstr ""
+
+#: lib/controllers/wizard_controller.php:27
+msgid "Intro"
+msgstr ""
+
+#: lib/controllers/wizard_controller.php:28
+#: lib/views/wizard/steps/_services.php:2
+msgid "Add Services"
+msgstr ""
+
+#: lib/controllers/wizard_controller.php:29
+msgid "Set Working Hours"
+msgstr ""
+
+#: lib/controllers/wizard_controller.php:30
+msgid "Fill Business Info"
+msgstr ""
+
+#: lib/controllers/wizard_controller.php:31
+#: lib/views/wizard/steps/_complete.php:2
+msgid "Setup Complete"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:16
+#, php-format
+msgid "Appointment status changed from %s to %s"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:26
+msgid "New Customer Registration"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:27
+msgid "Customer Profile Update"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:28 lib/views/bookings/quick_edit.php:18
+#: lib/views/customer_cabinet/dashboard.php:14
+#: lib/views/customer_cabinet/dashboard.php:31
+#: lib/views/customer_cabinet/dashboard.php:46
+#: lib/views/customer_cabinet/dashboard.php:61
+#: lib/views/partials/_top_bar.php:32
+msgid "New Appointment"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:29
+msgid "Appointment Status Changed"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:30
+msgid "Appointment Edited"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:31
+msgid "New Agent"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:32
+msgid "Agent Profile Update"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:33
+msgid "New Coupon"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:34
+msgid "Coupon Update"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:35
+msgid "Service Updated"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:36
+msgid "Service Created"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:37
+msgid "Location Updated"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:38
+msgid "Location Created"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:39
+msgid "SMS Sent"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:40
+msgid "Email Sent"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:41
+msgid "Process Job Run"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:42
+msgid "Booking Intent Converted"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:43
+msgid "Booking Intent Created"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:44
+msgid "Booking Intent Updated"
+msgstr ""
+
+#: lib/helpers/activities_helper.php:45 lib/helpers/process_jobs_helper.php:244
+msgid "Error"
+msgstr ""
+
+#: lib/helpers/addons_helper.php:37
+msgid ""
+"Connection Error. Please try again in a few minutes or contact us via email "
+"addons@latepoint.com. KLJSD734"
+msgstr ""
+
+#: lib/helpers/addons_helper.php:100
+msgid "Error installing addon! Invalid info KFE73463"
+msgstr ""
+
+#: lib/helpers/agent_helper.php:8
+msgid "Close Details"
+msgstr ""
+
+#: lib/helpers/agent_helper.php:68
+msgid "On Duty"
+msgstr ""
+
+#: lib/helpers/agent_helper.php:68
+msgid "Off Duty"
+msgstr ""
+
+#: lib/helpers/blocks_helper.php:18
+msgid "Customer will pick"
+msgstr ""
+
+#: lib/helpers/blocks_helper.php:24 lib/helpers/blocks_helper.php:72
+msgid "Any Available"
+msgstr ""
+
+#: lib/helpers/blocks_helper.php:59 lib/views/bookings/index.php:72
+#: lib/views/bookings/index.php:76 lib/views/bookings/index.php:77
+#: lib/views/transactions/index.php:44 lib/views/transactions/index.php:45
+#: lib/views/transactions/index.php:47 lib/views/transactions/index.php:48
+msgid "Show All"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:52
+msgid "Calendar Type"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:57
+msgid "Apple Calendar"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:61
+msgid "Google Calendar"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:65
+msgid "Outlook.com"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:69
+msgid "Microsoft 365"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:127
+msgid "Payments and Credits"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:136
+#: lib/views/bookings/_balance_and_payments.php:28
+msgid "Balance Due"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:152
+msgid "Coupon"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:179 lib/views/bookings/_price_breakdown.php:8
+msgid "Sub Total"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:187
+#: lib/views/bookings/_price_breakdown.php:13
+msgid "Total Price"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:415
+#, php-format
+msgid "Appointment with %s for %s"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:479
+msgid "Total booking price: "
+msgstr ""
+
+#: lib/helpers/booking_helper.php:480
+msgid "Deposit Amount: "
+msgstr ""
+
+#: lib/helpers/booking_helper.php:575
+msgid "Starts From"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:610 lib/helpers/service_helper.php:21
+msgid "Hours"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:610 lib/helpers/service_helper.php:21
+msgid "Hour"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:611 lib/helpers/booking_helper.php:614
+#: lib/helpers/service_helper.php:22 lib/helpers/service_helper.php:24
+msgid "Minutes"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1093 lib/helpers/booking_helper.php:1102
+msgid "Undefined Status"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1107
+msgid "Not Paid"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1108
+msgid "Partially Paid"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1109 lib/helpers/payments_helper.php:112
+msgid "Processing"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1110
+msgid "Fully Paid"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1116 lib/helpers/payments_helper.php:121
+msgid "Approved"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1117
+msgid "Pending Approval"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1118 lib/helpers/process_jobs_helper.php:243
+#: lib/views/customer_cabinet/dashboard.php:52
+#: lib/views/process_jobs/index.php:36
+msgid "Cancelled"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1119
+msgid "No Show"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1120 lib/helpers/process_jobs_helper.php:241
+#: lib/views/process_jobs/index.php:36
+msgid "Completed"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1144 lib/helpers/util_helper.php:287
+msgid "Monday"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1145 lib/helpers/util_helper.php:288
+msgid "Tuesday"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1146 lib/helpers/util_helper.php:289
+msgid "Wednesday"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1147 lib/helpers/util_helper.php:290
+msgid "Thursday"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1148 lib/helpers/util_helper.php:291
+msgid "Friday"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1149 lib/helpers/util_helper.php:292
+msgid "Saturday"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1150 lib/helpers/util_helper.php:293
+msgid "Sunday"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1152
+msgid "Mon"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1153
+msgid "Tue"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1154
+msgid "Wed"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1155
+msgid "Thu"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1156
+msgid "Fri"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1157
+msgid "Sat"
+msgstr ""
+
+#: lib/helpers/booking_helper.php:1158
+msgid "Sun"
+msgstr ""
+
+#: lib/helpers/calendar_helper.php:114
+msgid "Service Hours"
+msgstr ""
+
+#: lib/helpers/calendar_helper.php:127 lib/views/bookings/index.php:74
+#: lib/views/dashboard/widget_bookings_and_availability_timeline.php:14
+msgid "All Locations"
+msgstr ""
+
+#: lib/helpers/calendar_helper.php:208
+msgid "In order to generate the calendar, a service must be selected."
+msgstr ""
+
+#: lib/helpers/calendar_helper.php:341
+#, php-format
+msgid "%d Available"
+msgstr ""
+
+#: lib/helpers/customer_helper.php:135
+msgid "Customer with this email already exists"
+msgstr ""
+
+#: lib/helpers/email_helper.php:64
+msgid "No email processor is selected."
+msgstr ""
+
+#: lib/helpers/email_helper.php:76
+msgid "Email address of the recipient can not be blank"
+msgstr ""
+
+#: lib/helpers/email_helper.php:77
+msgid "Subject of the email can not be blank"
+msgstr ""
+
+#: lib/helpers/email_helper.php:78
+msgid "Content of the email can not be blank"
+msgstr ""
+
+#: lib/helpers/email_helper.php:91
+msgid "Email was sent successfully"
+msgstr ""
+
+#: lib/helpers/email_helper.php:96
+msgid "Error sending email"
+msgstr ""
+
+#: lib/helpers/email_helper.php:117 lib/helpers/email_helper.php:118
+msgid "Email notifications are disabled"
+msgstr ""
+
+#: lib/helpers/form_helper.php:315
+msgid "Click to select..."
+msgstr ""
+
+#: lib/helpers/form_helper.php:391
+msgid "am"
+msgstr ""
+
+#: lib/helpers/form_helper.php:391
+msgid "pm"
+msgstr ""
+
+#: lib/helpers/form_helper.php:409
+msgid "Pick a color"
+msgstr ""
+
+#: lib/helpers/license_helper.php:43
+msgid "Please enter your license key"
+msgstr ""
+
+#: lib/helpers/license_helper.php:67
+msgid ""
+"Connection Error. Please try again in a few minutes or contact us at "
+"license@latepoint.com. Error Code: UDF732S83"
+msgstr ""
+
+#: lib/helpers/license_helper.php:76
+msgid ""
+"Connection Error. Please try again in a few minutes or contact us at "
+"license@latepoint.com. Error Code: SUYF8362"
+msgstr ""
+
+#: lib/helpers/location_helper.php:198
+msgid "Main Location"
+msgstr ""
+
+#: lib/helpers/location_helper.php:232 lib/helpers/service_helper.php:116
+#: lib/views/service_categories/index.php:9
+msgid "ID: "
+msgstr ""
+
+#: lib/helpers/location_helper.php:233
+msgid "Locations Linked"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:35 lib/helpers/menu_helper.php:90
+msgid "Calendar"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:37 lib/helpers/menu_helper.php:61
+#: lib/helpers/menu_helper.php:92 lib/views/transactions/index.php:14
+msgid "Payments"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:40
+msgid "List of Customers"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:41 lib/views/customers/index.php:101
+#: lib/views/search/query_results.php:33
+msgid "Add Customer"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:44
+msgid "Resources"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:48 lib/helpers/menu_helper.php:102
+msgid "Categories"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:58
+msgid "Schedule"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:59
+msgid "Tax"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:60
+msgid "Steps"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:63
+msgid "Roles"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:64
+msgid "System"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:70
+msgid "Scheduled Jobs"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:71 lib/views/bookings/view_booking_log.php:13
+#: lib/views/partials/_top_bar.php:19
+msgid "Activity Log"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:76
+msgid "Calendars"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:77
+msgid "Meetings"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:78
+msgid "Marketing"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:81
+msgid "Form Fields"
+msgstr ""
+
+#: lib/helpers/menu_helper.php:106
+msgid "My Settings"
+msgstr ""
+
+#: lib/helpers/notifications_helper.php:34
+msgid "Default WordPress Mailer"
+msgstr ""
+
+#: lib/helpers/notifications_helper.php:42
+msgid "SMS"
+msgstr ""
+
+#: lib/helpers/notifications_helper.php:70 lib/misc/process_action.php:294
+msgid "Nothing to run"
+msgstr ""
+
+#: lib/helpers/notifications_helper.php:74
+#, php-format
+msgid "%s notifications are disabled"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:11 lib/helpers/payments_helper.php:49
+msgid "Other"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:62
+msgid "Pay Locally"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:101
+msgid "Full Balance"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:102
+msgid "Remaining Balance"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:103
+#: lib/views/steps/partials/_booking_summary.php:110
+msgid "Deposit"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:110
+msgid "Captured"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:111
+msgid "Authorized"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:113
+msgid "Refunded"
+msgstr ""
+
+#: lib/helpers/payments_helper.php:122
+msgid "Declined"
+msgstr ""
+
+#: lib/helpers/process_jobs_helper.php:242 lib/views/process_jobs/index.php:36
+msgid "Scheduled"
+msgstr ""
+
+#: lib/helpers/process_jobs_helper.php:246 lib/helpers/replacer_helper.php:334
+#: lib/helpers/time_helper.php:305 lib/misc/process_action.php:228
+#: lib/models/process_job_model.php:48 lib/views/customers/_table_body.php:26
+msgid "n/a"
+msgstr ""
+
+#: lib/helpers/processes_helper.php:75
+msgid "Trigger only if:"
+msgstr ""
+
+#: lib/helpers/processes_helper.php:81
+msgid "Conditional"
+msgstr ""
+
+#: lib/helpers/processes_helper.php:84
+msgid "Trigger only when specific conditions are met"
+msgstr ""
+
+#: lib/helpers/processes_helper.php:96
+msgid "Install Reminders Addon to add time offset to actions"
+msgstr ""
+
+#: lib/helpers/processes_helper.php:102
+msgid "Time offset"
+msgstr ""
+
+#: lib/helpers/processes_helper.php:105
+msgid "Execute actions with a time offset"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:183
+msgid "WP Role invalid"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:189
+msgid "WP Agent role can not be saved"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:200
+msgid "WP Role can not be saved"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:204
+msgid "Invalid role type"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:273
+msgid "Edit custom schedule of individual agent, location or service."
+msgstr ""
+
+#: lib/helpers/roles_helper.php:274
+msgid ""
+"Access to all settings pages, including general schedule and booking steps."
+msgstr ""
+
+#: lib/helpers/roles_helper.php:275
+msgid "Ability to connect agents to services and locations."
+msgstr ""
+
+#: lib/helpers/roles_helper.php:276
+msgid "Ability to send messages to customers (available with chat addon)."
+msgstr ""
+
+#: lib/helpers/roles_helper.php:295
+msgid "Chat"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:296
+msgid "Activity Logs"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:303
+msgid "Resource Schedules"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:305
+msgid "Connections"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:306 lib/views/customers/_table_body.php:30
+msgid "Edit"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:307 lib/misc/process_action.php:117
+#: lib/views/activities/view.php:30 lib/views/addons/load_addons_list.php:108
+#: lib/views/processes/_form.php:69
+msgid "Delete"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:308 lib/models/activity_model.php:39
+msgid "View"
+msgstr ""
+
+#: lib/helpers/roles_helper.php:309
+msgid "Create"
+msgstr ""
+
+#: lib/helpers/router_helper.php:83 lib/helpers/router_helper.php:85
+msgid "Not Authorized"
+msgstr ""
+
+#: lib/helpers/router_helper.php:90
+msgid "Page Not Found"
+msgstr ""
+
+#: lib/helpers/service_helper.php:117
+msgid "Services Linked"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:189
+msgid "Randomly picked agent"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:190
+msgid "Most expensive agent"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:191
+msgid "Least expensive agent"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:192
+msgid "Agent with the most bookings on that day"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:193
+msgid "Agent with the least bookings on that day"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:309 lib/models/agent_model.php:37
+#: lib/views/agents/_form.php:28
+#: lib/views/bookings/customer_quick_edit_form.php:3
+#: lib/views/customers/_form.php:40
+#: lib/views/steps/partials/_contact_form.php:2
+#: lib/views/wizard/steps/_form_agent.php:5
+msgid "First Name"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:310 lib/models/agent_model.php:41
+#: lib/views/agents/_form.php:29
+#: lib/views/bookings/customer_quick_edit_form.php:6
+#: lib/views/customers/_form.php:43
+#: lib/views/steps/partials/_contact_form.php:3
+#: lib/views/wizard/steps/_form_agent.php:8
+msgid "Last Name"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:311 lib/models/agent_model.php:39
+#: lib/models/customer_model.php:31 lib/views/agents/_form.php:33
+#: lib/views/bookings/customer_quick_edit_form.php:11
+#: lib/views/customer_cabinet/login.php:5
+#: lib/views/customer_cabinet/request_password_reset_token.php:9
+#: lib/views/customer_cabinet/request_password_reset_token.php:17
+#: lib/views/customers/_form.php:48
+#: lib/views/steps/partials/_contact_form.php:5
+#: lib/views/wizard/steps/_form_agent.php:13
+msgid "Email Address"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:312 lib/misc/process_action.php:146
+#: lib/models/customer_model.php:32 lib/views/agents/_form.php:34
+#: lib/views/customers/_form.php:51
+#: lib/views/steps/partials/_contact_form.php:4
+#: lib/views/wizard/steps/_form_agent.php:16
+msgid "Phone Number"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:313
+msgid "Comments"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:454
+msgid "Email Address field can not be disabled."
+msgstr ""
+
+#: lib/helpers/settings_helper.php:463
+msgid "Required?"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:466
+msgid "Full Width"
+msgstr ""
+
+#: lib/helpers/settings_helper.php:466
+msgid "Half Width"
+msgstr ""
+
+#: lib/helpers/shortcodes_helper.php:8
+msgid "Book Now"
+msgstr ""
+
+#: lib/helpers/shortcodes_helper.php:92
+msgid "Starts at"
+msgstr ""
+
+#: lib/helpers/shortcodes_helper.php:198 lib/helpers/shortcodes_helper.php:281
+#: lib/helpers/shortcodes_helper.php:292
+msgid "Book Appointment"
+msgstr ""
+
+#: lib/helpers/sms_helper.php:25
+msgid "No SMS processor is selected."
+msgstr ""
+
+#: lib/helpers/sms_helper.php:51 lib/helpers/sms_helper.php:52
+msgid "SMS notifications are disabled"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:60
+msgid "Order of this step can not be changed."
+msgstr ""
+
+#: lib/helpers/steps_helper.php:64
+msgid "Since you only have one location, this step will be skipped"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:67
+msgid "Payment processing is disabled. Click to setup."
+msgstr ""
+
+#: lib/helpers/steps_helper.php:78
+msgid "Step Title"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:87
+msgid "Step Sub Title"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:96 lib/views/service_categories/_form.php:9
+#: lib/views/services/_form.php:21
+msgid "Short Description"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:104 lib/helpers/steps_helper.php:109
+#: lib/views/services/_form.php:42 lib/views/services/_form.php:49
+msgid "Step Image"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:107
+msgid "Use Custom Step Image"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:109 lib/views/service_categories/_form.php:13
+#: lib/views/services/_form.php:42 lib/views/services/_form.php:49
+#: lib/views/settings/general.php:355
+#: lib/views/wizard/steps/_form_service.php:12
+msgid "Remove Image"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:117 lib/views/agents/modal_list.php:14
+#: lib/views/customer_cabinet/_booking_tile.php:33
+#: lib/views/manage_booking_by_key/show.php:44
+#: lib/views/service_categories/_form.php:22
+#: lib/views/wizard/steps/_form_agent.php:26
+#: lib/views/wizard/steps/_form_service.php:35
+msgid "Cancel"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:118
+msgid "Save Step"
+msgstr ""
+
+#: lib/helpers/steps_helper.php:679
+msgid "Another customer is registered with this email."
+msgstr ""
+
+#: lib/helpers/steps_helper.php:689 lib/helpers/steps_helper.php:698
+#: lib/helpers/steps_helper.php:716
+msgid ""
+"An account with that email address already exists. Please try signing in."
+msgstr ""
+
+#: lib/helpers/steps_helper.php:730
+msgid "Setting password is required and should match password confirmation"
+msgstr ""
+
+#: lib/helpers/time_helper.php:89
+msgid "in"
+msgstr ""
+
+#: lib/helpers/time_helper.php:90
+msgid "ago"
+msgstr ""
+
+#: lib/helpers/time_helper.php:95 lib/models/booking_model.php:796
+#: lib/views/settings/general.php:243 lib/views/settings/general.php:275
+msgid "days"
+msgstr ""
+
+#: lib/helpers/time_helper.php:99 lib/models/booking_model.php:800
+#: lib/views/settings/general.php:242 lib/views/settings/general.php:274
+msgid "hours"
+msgstr ""
+
+#: lib/helpers/time_helper.php:142 lib/helpers/time_helper.php:155
+msgid "12-hour clock"
+msgstr ""
+
+#: lib/helpers/time_helper.php:143 lib/helpers/time_helper.php:155
+msgid "24-hour clock"
+msgstr ""
+
+#: lib/helpers/time_helper.php:147
+msgid "MM/DD/YYYY"
+msgstr ""
+
+#: lib/helpers/time_helper.php:148
+msgid "MM.DD.YYYY"
+msgstr ""
+
+#: lib/helpers/time_helper.php:149
+msgid "DD/MM/YYYY"
+msgstr ""
+
+#: lib/helpers/time_helper.php:150
+msgid "DD.MM.YYYY"
+msgstr ""
+
+#: lib/helpers/time_helper.php:151
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: lib/helpers/time_helper.php:377
+msgid "Select a city"
+msgstr ""
+
+#: lib/helpers/time_helper.php:422 lib/helpers/time_helper.php:427
+msgid "UTC"
+msgstr ""
+
+#: lib/helpers/updates_helper.php:193
+#, php-format
+msgid ""
+"You can install this update from your <a href=\"%s\">LatePoint Settings</a> "
+"page"
+msgstr ""
+
+#: lib/helpers/updates_helper.php:202
+#, php-format
+msgid ""
+"You can install this update from your <a href=\"%s\">LatePoint Addons</a> "
+"page"
+msgstr ""
+
+#: lib/helpers/util_helper.php:87
+msgid "Show Available Variables"
+msgstr ""
+
+#: lib/helpers/util_helper.php:213 lib/helpers/util_helper.php:248
+msgid "January"
+msgstr ""
+
+#: lib/helpers/util_helper.php:214 lib/helpers/util_helper.php:249
+msgid "February"
+msgstr ""
+
+#: lib/helpers/util_helper.php:215 lib/helpers/util_helper.php:250
+msgid "March"
+msgstr ""
+
+#: lib/helpers/util_helper.php:216 lib/helpers/util_helper.php:251
+msgid "April"
+msgstr ""
+
+#: lib/helpers/util_helper.php:217 lib/helpers/util_helper.php:252
+msgid "May"
+msgstr ""
+
+#: lib/helpers/util_helper.php:218 lib/helpers/util_helper.php:253
+msgid "June"
+msgstr ""
+
+#: lib/helpers/util_helper.php:219 lib/helpers/util_helper.php:254
+msgid "July"
+msgstr ""
+
+#: lib/helpers/util_helper.php:220 lib/helpers/util_helper.php:255
+msgid "August"
+msgstr ""
+
+#: lib/helpers/util_helper.php:221 lib/helpers/util_helper.php:256
+msgid "September"
+msgstr ""
+
+#: lib/helpers/util_helper.php:222 lib/helpers/util_helper.php:257
+msgid "October"
+msgstr ""
+
+#: lib/helpers/util_helper.php:223 lib/helpers/util_helper.php:258
+msgid "November"
+msgstr ""
+
+#: lib/helpers/util_helper.php:224 lib/helpers/util_helper.php:259
+msgid "December"
+msgstr ""
+
+#: lib/helpers/util_helper.php:225 lib/helpers/util_helper.php:260
+msgid "Jan"
+msgstr ""
+
+#: lib/helpers/util_helper.php:226 lib/helpers/util_helper.php:261
+msgid "Feb"
+msgstr ""
+
+#: lib/helpers/util_helper.php:227 lib/helpers/util_helper.php:262
+msgid "Mar"
+msgstr ""
+
+#: lib/helpers/util_helper.php:228 lib/helpers/util_helper.php:263
+msgid "Apr"
+msgstr ""
+
+#: lib/helpers/util_helper.php:229
+msgctxt "short version of May month"
+msgid "May"
+msgstr ""
+
+#: lib/helpers/util_helper.php:230 lib/helpers/util_helper.php:264
+msgid "Jun"
+msgstr ""
+
+#: lib/helpers/util_helper.php:231 lib/helpers/util_helper.php:265
+msgid "Jul"
+msgstr ""
+
+#: lib/helpers/util_helper.php:232 lib/helpers/util_helper.php:266
+msgid "Aug"
+msgstr ""
+
+#: lib/helpers/util_helper.php:233 lib/helpers/util_helper.php:267
+msgid "Sep"
+msgstr ""
+
+#: lib/helpers/util_helper.php:234 lib/helpers/util_helper.php:268
+msgid "Oct"
+msgstr ""
+
+#: lib/helpers/util_helper.php:235 lib/helpers/util_helper.php:269
+msgid "Nov"
+msgstr ""
+
+#: lib/helpers/util_helper.php:236 lib/helpers/util_helper.php:270
+msgid "Dec"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:251
+msgid "Start"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:252
+msgid "Finish"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:475
+msgid "Edit Date Range Schedule"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:476
+msgid "Are you sure you want to remove custom schedule for this date range?"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:476
+msgid "Remove Date Range Schedule"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:502
+#: lib/helpers/work_periods_helper.php:589
+msgid "Edit Day Schedule"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:503
+msgid "Are you sure you want to remove custom schedule for this day?"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:503
+msgid "Remove Day Schedule"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:526
+#: lib/helpers/work_periods_helper.php:602
+msgid "Add Day"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:572
+msgid "Are you sure you want to remove day off range?"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:572
+msgid "Remove Day Off Range"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:590
+msgid "Are you sure you want to remove this day off?"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:590
+msgid "Remove Day Off"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:696
+#, php-format
+msgid "+%d More"
+msgstr ""
+
+#: lib/helpers/work_periods_helper.php:725
+#, php-format
+msgid "Add another work period for %s"
+msgstr ""
+
+#: lib/mailers/customer_mailer.php:33
+msgid "Reset Your Password"
+msgstr ""
+
+#: lib/misc/process_action.php:105 lib/misc/process_action.php:117
+msgid "Are you sure you want to delete this action?"
+msgstr ""
+
+#: lib/misc/process_action.php:109
+msgid "Action Type"
+msgstr ""
+
+#: lib/misc/process_action.php:110 lib/views/agents/_form.php:39
+#: lib/views/processes/_form.php:21 lib/views/services/_form.php:22
+msgid "Disabled"
+msgstr ""
+
+#: lib/misc/process_action.php:118
+msgid "Test this action"
+msgstr ""
+
+#: lib/misc/process_action.php:131
+msgid "Load from template"
+msgstr ""
+
+#: lib/misc/process_action.php:132 lib/views/settings/notifications.php:70
+msgid "Show smart variables"
+msgstr ""
+
+#: lib/misc/process_action.php:139
+msgid "To Email"
+msgstr ""
+
+#: lib/misc/process_action.php:139
+msgid "To email address"
+msgstr ""
+
+#: lib/misc/process_action.php:140 lib/views/settings/notifications.php:72
+msgid "Email Subject"
+msgstr ""
+
+#: lib/misc/process_action.php:146
+msgid "To Phone Number"
+msgstr ""
+
+#: lib/misc/process_action.php:147
+msgid "Message Content"
+msgstr ""
+
+#: lib/misc/process_action.php:147
+msgid "Message"
+msgstr ""
+
+#: lib/misc/process_action.php:149 lib/views/settings/notifications.php:41
+msgid "Install SMS Addon"
+msgstr ""
+
+#: lib/misc/process_action.php:153
+msgid "Install Webhooks Addon"
+msgstr ""
+
+#: lib/misc/process_action.php:179
+msgid "Email To"
+msgstr ""
+
+#: lib/misc/process_action.php:182
+msgid "SMS To"
+msgstr ""
+
+#: lib/misc/process_action.php:185
+msgid "Webhook URL"
+msgstr ""
+
+#: lib/misc/process_action.php:211
+msgid "Send Email"
+msgstr ""
+
+#: lib/misc/process_action.php:212
+msgid "Send SMS"
+msgstr ""
+
+#: lib/misc/process_action.php:213
+msgid "HTTP Request"
+msgstr ""
+
+#: lib/misc/process_action.php:332
+msgid "You have to create a booking to be able to test this action."
+msgstr ""
+
+#: lib/misc/process_action.php:338
+msgid "Subject:"
+msgstr ""
+
+#: lib/misc/process_event.php:37
+msgid "Choose a booking for this test run:"
+msgstr ""
+
+#: lib/misc/process_event.php:45
+msgid "Choose old booking to be used for this test run:"
+msgstr ""
+
+#: lib/misc/process_event.php:50
+msgid "Choose new booking to be used for this test run:"
+msgstr ""
+
+#: lib/misc/process_event.php:58
+msgid "Choose a transaction for this test run:"
+msgstr ""
+
+#: lib/misc/process_event.php:66
+msgid "Choose a customer for this test run:"
+msgstr ""
+
+#: lib/misc/process_event.php:163
+msgid "Booking"
+msgstr ""
+
+#: lib/misc/process_event.php:166
+msgid "Old Booking"
+msgstr ""
+
+#: lib/misc/process_event.php:167 lib/views/partials/_top_bar.php:40
+msgid "New Booking"
+msgstr ""
+
+#: lib/misc/process_event.php:170 lib/views/shared/_template_variables.php:65
+msgid "Transaction"
+msgstr ""
+
+#: lib/misc/process_event.php:245
+msgid "AND"
+msgstr ""
+
+#: lib/misc/process_event.php:258
+msgid "was equal to"
+msgstr ""
+
+#: lib/misc/process_event.php:259
+msgid "was not equal to"
+msgstr ""
+
+#: lib/misc/process_event.php:261
+msgid "has changed"
+msgstr ""
+
+#: lib/misc/process_event.php:262
+msgid "has not changed"
+msgstr ""
+
+#: lib/misc/process_event.php:271
+msgid "is equal to"
+msgstr ""
+
+#: lib/misc/process_event.php:272
+msgid "is not equal to"
+msgstr ""
+
+#: lib/misc/process_event.php:297 lib/misc/process_event.php:307
+msgid "Booking Status"
+msgstr ""
+
+#: lib/misc/process_event.php:303
+msgid "Previous Booking Status"
+msgstr ""
+
+#: lib/misc/process_event.php:304
+msgid "Previous Service"
+msgstr ""
+
+#: lib/misc/process_event.php:305
+msgid "Previous Agent"
+msgstr ""
+
+#: lib/misc/process_event.php:306 lib/models/booking_model.php:78
+#: lib/models/work_period_model.php:22 lib/views/bookings/quick_edit.php:142
+msgid "Start Time"
+msgstr ""
+
+#: lib/misc/process_event.php:313 lib/models/transaction_model.php:30
+#: lib/views/steps/partials/_booking_summary.php:107
+msgid "Payment Method"
+msgstr ""
+
+#: lib/misc/process_event.php:340
+msgid "Booking Created"
+msgstr ""
+
+#: lib/misc/process_event.php:341
+msgid "Booking Updated"
+msgstr ""
+
+#: lib/misc/process_event.php:342
+msgid "Booking Started"
+msgstr ""
+
+#: lib/misc/process_event.php:343
+msgid "Booking Ended"
+msgstr ""
+
+#: lib/misc/process_event.php:344
+msgid "Customer Created"
+msgstr ""
+
+#: lib/misc/process_event.php:345
+msgid "Transaction Created"
+msgstr ""
+
+#: lib/misc/role.php:23 lib/misc/role.php:110 lib/misc/user.php:319
+msgid "Administrator"
+msgstr ""
+
+#: lib/misc/role.php:27 lib/misc/role.php:113
+msgid "LatePoint Agent"
+msgstr ""
+
+#: lib/misc/role.php:31
+msgid "New Custom Role"
+msgstr ""
+
+#: lib/misc/user.php:321
+msgid "Custom"
+msgstr ""
+
+#: lib/models/agent_model.php:38 lib/views/customer_cabinet/login.php:6
+#: lib/views/steps/partials/_contact_form.php:7
+msgid "Password"
+msgstr ""
+
+#: lib/models/agent_model.php:40
+msgid "Connected WordPress User"
+msgstr ""
+
+#: lib/models/booking_model.php:77 lib/views/bookings/index.php:50
+#: lib/views/bookings/index.php:118
+msgid "Payment Status"
+msgstr ""
+
+#: lib/models/booking_model.php:429
+msgid ""
+"Unfortunately there are no active resources that can offer selected serivce, "
+"please select another service."
+msgstr ""
+
+#: lib/models/booking_model.php:547
+msgid "You have to select a service"
+msgstr ""
+
+#: lib/models/booking_model.php:550
+msgid "You have to select an agent"
+msgstr ""
+
+#: lib/models/booking_model.php:556
+msgid "You have to be logged in"
+msgstr ""
+
+#: lib/models/booking_model.php:731 lib/models/booking_model.php:740
+msgid "Invalid Date/Time"
+msgstr ""
+
+#: lib/models/booking_model.php:827
+msgid "Any Available Agent"
+msgstr ""
+
+#: lib/models/customer_model.php:30
+msgid "Customer First Name"
+msgstr ""
+
+#: lib/models/customer_model.php:33
+msgid "Customer Last Name"
+msgstr ""
+
+#: lib/models/location_category_model.php:15
+msgid "Location Category Name"
+msgstr ""
+
+#: lib/models/location_category_model.php:16
+msgid "Location Category Short Description"
+msgstr ""
+
+#: lib/models/location_category_model.php:17
+msgid "Location Category Selection Image"
+msgstr ""
+
+#: lib/models/location_category_model.php:73
+msgid "Not categorized"
+msgstr ""
+
+#: lib/models/location_model.php:20
+msgid "Location Name"
+msgstr ""
+
+#: lib/models/model.php:910
+#, php-format
+msgid "%s is not valid"
+msgstr ""
+
+#: lib/models/model.php:919
+#, php-format
+msgid "%s can not be blank"
+msgstr ""
+
+#: lib/models/model.php:932
+#, php-format
+msgid "%s has to be unique"
+msgstr ""
+
+#: lib/models/process_job_model.php:80
+msgid "No Actions"
+msgstr ""
+
+#: lib/models/process_job_model.php:142
+msgid "Process action have been modified since the job was created."
+msgstr ""
+
+#: lib/models/process_job_model.php:159
+msgid "Selected actions ran successfully."
+msgstr ""
+
+#: lib/models/process_job_model.php:159
+msgid "The job ran successfully."
+msgstr ""
+
+#: lib/models/process_job_model.php:166
+msgid "Job process has no actions to run"
+msgstr ""
+
+#: lib/models/service_category_model.php:17
+msgid "Service Category Name"
+msgstr ""
+
+#: lib/models/service_category_model.php:18
+msgid "Service Category Short Description"
+msgstr ""
+
+#: lib/models/service_category_model.php:19
+msgid "Service Category Selection Image"
+msgstr ""
+
+#: lib/models/service_model.php:40 lib/views/services/_form.php:16
+#: lib/views/wizard/steps/_form_service.php:5
+msgid "Service Name"
+msgstr ""
+
+#: lib/models/service_model.php:41
+msgid "Service Short Description"
+msgstr ""
+
+#: lib/models/service_model.php:42
+msgid "Service Selection Image"
+msgstr ""
+
+#: lib/models/service_model.php:43
+msgid "Service Description Image"
+msgstr ""
+
+#: lib/models/service_model.php:44
+msgid "Variable Price"
+msgstr ""
+
+#: lib/models/service_model.php:45 lib/views/services/_form.php:86
+msgid "Minimum Price"
+msgstr ""
+
+#: lib/models/service_model.php:46 lib/views/services/_form.php:89
+msgid "Maximum Price"
+msgstr ""
+
+#: lib/models/service_model.php:47 lib/views/services/_form.php:68
+msgid "Charge Amount"
+msgstr ""
+
+#: lib/models/service_model.php:48 lib/views/services/_form.php:71
+msgid "Deposit Amount"
+msgstr ""
+
+#: lib/models/service_model.php:49
+msgid "Duration Name"
+msgstr ""
+
+#: lib/models/service_model.php:50
+msgid "Service Duration"
+msgstr ""
+
+#: lib/models/service_model.php:51 lib/views/bookings/quick_edit.php:154
+#: lib/views/services/_form.php:101
+msgid "Buffer Before"
+msgstr ""
+
+#: lib/models/service_model.php:52 lib/views/bookings/quick_edit.php:157
+#: lib/views/services/_form.php:104
+msgid "Buffer After"
+msgstr ""
+
+#: lib/models/service_model.php:54
+msgid "Service Category"
+msgstr ""
+
+#: lib/models/step_model.php:216 lib/models/step_model.php:218
+msgid "Location Selection"
+msgstr ""
+
+#: lib/models/step_model.php:219
+msgid "Please select a location you want the service to be performed at"
+msgstr ""
+
+#: lib/models/step_model.php:222 lib/models/step_model.php:224
+msgid "Service Selection"
+msgstr ""
+
+#: lib/models/step_model.php:225
+msgid "Please select a service for which you want to schedule an appointment"
+msgstr ""
+
+#: lib/models/step_model.php:228 lib/models/step_model.php:230
+msgid "Agent Selection"
+msgstr ""
+
+#: lib/models/step_model.php:231
+msgid ""
+"You can pick a specific agent to perform your service or select any to "
+"automatically assign you one"
+msgstr ""
+
+#: lib/models/step_model.php:234
+msgid "Date & Time"
+msgstr ""
+
+#: lib/models/step_model.php:236
+msgid "Date & Time Selection"
+msgstr ""
+
+#: lib/models/step_model.php:237
+msgid ""
+"Click on a date to see a timeline of available slots, click on a green time "
+"slot to reserve it"
+msgstr ""
+
+#: lib/models/step_model.php:240
+msgid "Your Information"
+msgstr ""
+
+#: lib/models/step_model.php:242
+msgid "Customer Information"
+msgstr ""
+
+#: lib/models/step_model.php:243
+msgid ""
+"Please provide you contact details so we can send you a confirmation and "
+"other contact info"
+msgstr ""
+
+#: lib/models/step_model.php:246 lib/views/shared/_template_variables.php:22
+msgid "Payment"
+msgstr ""
+
+#: lib/models/step_model.php:248
+msgid "Your Payment Information"
+msgstr ""
+
+#: lib/models/step_model.php:249
+msgid ""
+"You can either pay online using your credit card or PayPal, or you can pay "
+"on arrival with cash"
+msgstr ""
+
+#: lib/models/step_model.php:252
+msgid "Verify Order Details"
+msgstr ""
+
+#: lib/models/step_model.php:254
+msgid "Verify Booking Details"
+msgstr ""
+
+#: lib/models/step_model.php:255
+msgid ""
+"Double check your reservation details and click submit button if everything "
+"is correct"
+msgstr ""
+
+#: lib/models/step_model.php:258
+#: lib/views/shared/process_reschedule_request.php:15
+msgid "Confirmation"
+msgstr ""
+
+#: lib/models/step_model.php:260
+msgid "Appointment Confirmation"
+msgstr ""
+
+#: lib/models/step_model.php:261
+msgid ""
+"Your appointment has been successfully scheduled. Please retain this "
+"confirmation for your record."
+msgstr ""
+
+#: lib/models/transaction_model.php:21 lib/views/transactions/edit_form.php:31
+msgid "Confirmation Number"
+msgstr ""
+
+#: lib/models/transaction_model.php:31 lib/views/transactions/edit_form.php:36
+msgid "Payment Portion"
+msgstr ""
+
+#: lib/models/transaction_model.php:32 lib/views/transactions/edit_form.php:39
+msgid "Funds Status"
+msgstr ""
+
+#: lib/models/work_period_model.php:23 lib/views/bookings/quick_edit.php:147
+msgid "End Time"
+msgstr ""
+
+#: lib/views/activities/index.php:14 lib/views/activities/index.php:63
+msgid "Showing activities"
+msgstr ""
+
+#: lib/views/activities/index.php:14 lib/views/activities/index.php:63
+#: lib/views/process_jobs/index.php:71
+msgid "to"
+msgstr ""
+
+#: lib/views/activities/index.php:14 lib/views/activities/index.php:63
+#: lib/views/bookings/index.php:26 lib/views/bookings/index.php:133
+#: lib/views/customers/index.php:6 lib/views/customers/index.php:84
+#: lib/views/dashboard/_booking_info_box_small.php:48
+#: lib/views/process_jobs/index.php:71 lib/views/transactions/index.php:15
+#: lib/views/transactions/index.php:82
+msgid "of"
+msgstr ""
+
+#: lib/views/activities/index.php:17
+msgid "Are you sure you want to clear the activities log?"
+msgstr ""
+
+#: lib/views/activities/index.php:17
+msgid "Clear All"
+msgstr ""
+
+#: lib/views/activities/index.php:18
+msgid "Export"
+msgstr ""
+
+#: lib/views/activities/index.php:28 lib/views/activities/index.php:54
+msgid "Action By"
+msgstr ""
+
+#: lib/views/activities/index.php:29 lib/views/activities/index.php:55
+#: lib/views/bookings/index.php:44 lib/views/bookings/index.php:112
+msgid "Date/Time"
+msgstr ""
+
+#: lib/views/activities/index.php:30 lib/views/activities/index.php:56
+msgid "Action"
+msgstr ""
+
+#: lib/views/activities/index.php:33 lib/views/process_jobs/index.php:32
+msgid "All Types"
+msgstr ""
+
+#: lib/views/activities/index.php:34
+msgid "User ID"
+msgstr ""
+
+#: lib/views/activities/index.php:37 lib/views/activities/index.php:38
+#: lib/views/customers/index.php:50 lib/views/customers/index.php:51
+#: lib/views/process_jobs/index.php:39 lib/views/process_jobs/index.php:40
+#: lib/views/transactions/index.php:51 lib/views/transactions/index.php:52
+msgid "Filter By Date"
+msgstr ""
+
+#: lib/views/activities/index.php:37 lib/views/customers/index.php:50
+#: lib/views/process_jobs/index.php:39 lib/views/transactions/index.php:51
+msgid "Reset Date Filtering"
+msgstr ""
+
+#: lib/views/activities/index.php:65 lib/views/bookings/index.php:135
+#: lib/views/customers/index.php:86 lib/views/process_jobs/index.php:73
+#: lib/views/transactions/index.php:84
+msgid "Page:"
+msgstr ""
+
+#: lib/views/activities/index.php:80
+msgid "No Activity"
+msgstr ""
+
+#: lib/views/addons/index.php:2
+msgid "Loading Addons Information"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:52
+msgid "Featured"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:68
+#: lib/views/addons/load_addons_list.php:74
+msgid "Latest:"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:69
+#: lib/views/addons/load_addons_list.php:71
+msgid "Installed:"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:81
+msgid "Requires LatePoint"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:88
+#: lib/views/addons/load_addons_list.php:104
+#: lib/views/updates/check_version_status.php:20
+msgid "Update Now"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:93
+msgid "Deactivate"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:112
+msgid "Activate"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:120
+#: lib/views/addons/load_addons_list.php:130
+msgid "Install Now"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:125
+#: lib/views/addons/load_addons_list.php:144 lib/views/steps/_agents.php:30
+#: lib/views/steps/partials/_booking_summary.php:89
+msgid "Learn More"
+msgstr ""
+
+#: lib/views/addons/load_addons_list.php:139
+msgid "Try for FREE"
+msgstr ""
+
+#: lib/views/agents/_form.php:19 lib/views/customers/_form.php:13
+#: lib/views/services/_form.php:7
+msgid "General Information"
+msgstr ""
+
+#: lib/views/agents/_form.php:21
+msgid "Agent ID:"
+msgstr ""
+
+#: lib/views/agents/_form.php:26 lib/views/customers/_form.php:35
+msgid "Set Avatar"
+msgstr ""
+
+#: lib/views/agents/_form.php:26 lib/views/customers/_form.php:35
+msgid "Remove Avatar"
+msgstr ""
+
+#: lib/views/agents/_form.php:30
+msgid "Display Name"
+msgstr ""
+
+#: lib/views/agents/_form.php:38
+msgid "Connect to WP User"
+msgstr ""
+
+#: lib/views/agents/_form.php:38
+msgid "Select User"
+msgstr ""
+
+#: lib/views/agents/_form.php:47
+msgid "Additional Contact Information"
+msgstr ""
+
+#: lib/views/agents/_form.php:51
+msgid ""
+"If you need to notify multiple persons about the appointment, you can list "
+"additional email addresses and phone numbers to send notification emails and "
+"sms to. You can list multiple numbers and emails separated by commas."
+msgstr ""
+
+#: lib/views/agents/_form.php:53
+msgid "Additional Email Addresses"
+msgstr ""
+
+#: lib/views/agents/_form.php:54
+msgid "Additional Phone Numbers"
+msgstr ""
+
+#: lib/views/agents/_form.php:61
+msgid "Extra Information"
+msgstr ""
+
+#: lib/views/agents/_form.php:66
+msgid "Set Bio Image"
+msgstr ""
+
+#: lib/views/agents/_form.php:66
+msgid "Remove Bio Image"
+msgstr ""
+
+#: lib/views/agents/_form.php:67
+msgid "Agent Title"
+msgstr ""
+
+#: lib/views/agents/_form.php:68
+msgid "Bio Text"
+msgstr ""
+
+#: lib/views/agents/_form.php:69
+msgid "Agent Highlights"
+msgstr ""
+
+#: lib/views/agents/_form.php:70
+msgid ""
+"These value-label pairs will appear on agent information popup. You can "
+"enter things like years of experience, or number of clients served, to "
+"highlight agent accomplishments."
+msgstr ""
+
+#: lib/views/agents/_form.php:76
+msgid "Highlight #"
+msgstr ""
+
+#: lib/views/agents/_form.php:78 lib/views/settings/general.php:239
+#: lib/views/settings/general.php:271
+msgid "Value"
+msgstr ""
+
+#: lib/views/agents/_form.php:79
+msgid "Label"
+msgstr ""
+
+#: lib/views/agents/_form.php:90
+msgid "Offered Services"
+msgstr ""
+
+#: lib/views/agents/_form.php:92 lib/views/services/_form.php:119
+msgid "Select All"
+msgstr ""
+
+#: lib/views/agents/_form.php:116 lib/views/services/_form.php:145
+msgid "Locations Selected"
+msgstr ""
+
+#: lib/views/agents/_form.php:118 lib/views/services/_form.php:147
+msgid "Customize"
+msgstr ""
+
+#: lib/views/agents/_form.php:122
+#, php-format
+msgid "Select locations where this agent will offer %s:"
+msgstr ""
+
+#: lib/views/agents/_form.php:156
+msgid "No Existing Services Found"
+msgstr ""
+
+#: lib/views/agents/_form.php:157
+msgid "Add First Service"
+msgstr ""
+
+#: lib/views/agents/_form.php:169
+msgid "Agent Schedule"
+msgstr ""
+
+#: lib/views/agents/_form.php:171 lib/views/services/_form.php:200
+msgid "Set Custom Schedule"
+msgstr ""
+
+#: lib/views/agents/_form.php:183
+msgid "This agent is using general schedule which is set in main settings"
+msgstr ""
+
+#: lib/views/agents/_form.php:193 lib/views/services/_form.php:222
+#: lib/views/settings/work_periods.php:19
+msgid "Days With Custom Schedules"
+msgstr ""
+
+#: lib/views/agents/_form.php:196
+msgid ""
+"Agent shares custom daily schedules that you set in general settings for "
+"your company, however you can add additional days with custom hours which "
+"will be specific to this agent only."
+msgstr ""
+
+#: lib/views/agents/_form.php:202 lib/views/services/_form.php:231
+#: lib/views/settings/work_periods.php:27
+msgid "Holidays & Days Off"
+msgstr ""
+
+#: lib/views/agents/_form.php:205
+msgid ""
+"Agent uses the same holidays you set in general settings for your company, "
+"however you can add additional holidays for this agent here."
+msgstr ""
+
+#: lib/views/agents/_form.php:216 lib/views/agents/index.php:59
+#: lib/views/search/query_results.php:49
+#: lib/views/wizard/steps/_list_agents.php:27
+msgid "Add Agent"
+msgstr ""
+
+#: lib/views/agents/_form.php:220 lib/views/bookings/quick_edit.php:277
+#: lib/views/customer_cabinet/dashboard.php:79 lib/views/customers/_form.php:86
+#: lib/views/services/_form.php:249
+msgid "Save Changes"
+msgstr ""
+
+#: lib/views/agents/_form.php:224 lib/views/wizard/steps/_list_agents.php:10
+msgid "Are you sure you want to remove this agent?"
+msgstr ""
+
+#: lib/views/agents/_form.php:228
+msgid "Delete Agent"
+msgstr ""
+
+#: lib/views/agents/index.php:13
+msgid "Connected to WordPress User"
+msgstr ""
+
+#: lib/views/agents/index.php:67 lib/views/services/_form.php:185
+msgid "No Existing Agents Found"
+msgstr ""
+
+#: lib/views/agents/index.php:68 lib/views/services/_form.php:186
+msgid "Add First Agent"
+msgstr ""
+
+#: lib/views/agents/mini_profile.php:7 lib/views/customers/mini_profile.php:11
+msgid "email:"
+msgstr ""
+
+#: lib/views/agents/mini_profile.php:8 lib/views/customers/mini_profile.php:12
+msgid "phone:"
+msgstr ""
+
+#: lib/views/agents/modal_list.php:2
+#: lib/views/wizard/steps/_form_service.php:16
+msgid "Select Agents"
+msgstr ""
+
+#: lib/views/agents/modal_list.php:15
+msgid "Save Agents"
+msgstr ""
+
+#: lib/views/bookings/_balance_and_payments.php:6
+msgid "Balance & Payments"
+msgstr ""
+
+#: lib/views/bookings/_balance_and_payments.php:27
+msgid "Total Payments"
+msgstr ""
+
+#: lib/views/bookings/_full_summary.php:10 lib/views/steps/_confirmation.php:5
+msgid "Confirmation #"
+msgstr ""
+
+#: lib/views/bookings/_full_summary.php:13
+#: lib/views/customer_cabinet/_booking_tile.php:56
+#: lib/views/steps/_confirmation.php:8
+msgid "Add to Calendar"
+msgstr ""
+
+#: lib/views/bookings/_full_summary.php:16 lib/views/steps/_confirmation.php:11
+msgid "Print"
+msgstr ""
+
+#: lib/views/bookings/_table_body.php:35
+msgid "Now"
+msgstr ""
+
+#: lib/views/bookings/_table_body.php:38 lib/views/bookings/index.php:72
+#: lib/views/customer_cabinet/dashboard.php:37
+#: lib/views/customers/_table_body.php:27
+msgid "Past"
+msgstr ""
+
+#: lib/views/bookings/customer_quick_edit_form.php:16
+msgid "Telephone Number"
+msgstr ""
+
+#: lib/views/bookings/customer_quick_edit_form.php:21
+msgid "Customer Notes"
+msgstr ""
+
+#: lib/views/bookings/customer_quick_edit_form.php:26
+msgid "Notes only visible to admins"
+msgstr ""
+
+#: lib/views/bookings/customize_table.php:3
+msgid "Show Additional Columns"
+msgstr ""
+
+#: lib/views/bookings/customize_table.php:7
+msgid "Customer Fields"
+msgstr ""
+
+#: lib/views/bookings/customize_table.php:14
+msgid "Booking Fields"
+msgstr ""
+
+#: lib/views/bookings/customize_table.php:24
+msgid "Save Table Columns"
+msgstr ""
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:2
+msgid "Group Appointment"
+msgstr ""
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:15
+#: lib/views/calendars/scopes/_booking_box_on_calendar.php:30
+msgid "Booked:"
+msgstr ""
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:15
+#: lib/views/calendars/scopes/_booking_box_on_calendar.php:30
+#, php-format
+msgid "%d of %d"
+msgstr ""
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:35
+msgid "Attendies"
+msgstr ""
+
+#: lib/views/bookings/grouped_bookings_quick_view.php:51
+msgid "Add Booking"
+msgstr ""
+
+#: lib/views/bookings/index.php:26 lib/views/bookings/index.php:133
+#: lib/views/customers/index.php:6 lib/views/customers/index.php:84
+#: lib/views/transactions/index.php:15 lib/views/transactions/index.php:82
+msgid "Showing"
+msgstr ""
+
+#: lib/views/bookings/index.php:30
+msgid "Table Settings"
+msgstr ""
+
+#: lib/views/bookings/index.php:31 lib/views/customers/index.php:10
+#: lib/views/transactions/index.php:19
+msgid "Download .csv"
+msgstr ""
+
+#: lib/views/bookings/index.php:45 lib/views/bookings/index.php:113
+msgid "Time Left"
+msgstr ""
+
+#: lib/views/bookings/index.php:47 lib/views/bookings/index.php:115
+#: lib/views/bookings/quick_edit.php:104
+#: lib/views/shared/_template_variables.php:58
+msgid "Location"
+msgstr ""
+
+#: lib/views/bookings/index.php:51 lib/views/bookings/index.php:119
+msgid "Created On"
+msgstr ""
+
+#: lib/views/bookings/index.php:61
+#: lib/views/dashboard/widget_bookings_and_availability_timeline.php:20
+#: lib/views/dashboard/widget_daily_bookings_chart.php:32
+#: lib/views/dashboard/widget_upcoming_appointments.php:40
+msgid "All Services"
+msgstr ""
+
+#: lib/views/bookings/index.php:64
+msgid "Search by Appointment Date"
+msgstr ""
+
+#: lib/views/bookings/index.php:64 lib/views/bookings/index.php:80
+msgid "Reset Date Search"
+msgstr ""
+
+#: lib/views/bookings/index.php:65 lib/views/bookings/index.php:80
+#: lib/views/bookings/index.php:81
+msgid "Filter Date"
+msgstr ""
+
+#: lib/views/bookings/index.php:72 lib/views/customer_cabinet/dashboard.php:22
+#: lib/views/dashboard/widget_upcoming_appointments.php:16
+#: lib/views/dashboard/widget_upcoming_appointments.php:52
+msgid "Upcoming"
+msgstr ""
+
+#: lib/views/bookings/index.php:72
+msgid "Happening Now"
+msgstr ""
+
+#: lib/views/bookings/index.php:73
+#: lib/views/dashboard/widget_daily_bookings_chart.php:23
+#: lib/views/dashboard/widget_upcoming_appointments.php:30
+msgid "All Agents"
+msgstr ""
+
+#: lib/views/bookings/index.php:75
+msgid "Search by Customer"
+msgstr ""
+
+#: lib/views/bookings/index.php:150
+msgid "No Existing Appointments Found"
+msgstr ""
+
+#: lib/views/bookings/index.php:151
+msgid "Add First Appointment"
+msgstr ""
+
+#: lib/views/bookings/pending_approval.php:27
+#: lib/views/bookings/pending_approval.php:46
+#: lib/views/bookings/quick_edit.php:212
+#: lib/views/customers/query_for_booking_form.php:16
+#: lib/views/dashboard/_booking_info_box_small.php:16
+#: lib/views/dashboard/_booking_info_box_small.php:32
+msgid "Phone: "
+msgstr ""
+
+#: lib/views/bookings/pending_approval.php:31
+#: lib/views/bookings/pending_approval.php:50
+#: lib/views/bookings/quick_edit.php:208
+#: lib/views/customers/query_for_booking_form.php:12
+#: lib/views/dashboard/_booking_info_box_small.php:20
+#: lib/views/dashboard/_booking_info_box_small.php:36
+msgid "Email: "
+msgstr ""
+
+#: lib/views/bookings/pending_approval.php:57
+msgid "Approve"
+msgstr ""
+
+#: lib/views/bookings/pending_approval.php:60
+msgid "Reject"
+msgstr ""
+
+#: lib/views/bookings/pending_approval.php:68
+#, php-format
+msgid "Showing appointments %d to %d of %d total"
+msgstr ""
+
+#: lib/views/bookings/pending_approval.php:86
+msgid "No Pending Appointments Found"
+msgstr ""
+
+#: lib/views/bookings/pending_approval.php:87
+#: lib/views/bookings/quick_edit.php:274
+#: lib/views/calendars/scopes/_list.php:107 lib/views/customers/_form.php:134
+#: lib/views/dashboard/widget_daily_bookings_chart.php:105
+#: lib/views/transactions/index.php:102
+msgid "Create Appointment"
+msgstr ""
+
+#: lib/views/bookings/quick_availability.php:4
+msgid "Availability"
+msgstr ""
+
+#: lib/views/bookings/quick_availability.php:25
+msgid "Load previous 30 days"
+msgstr ""
+
+#: lib/views/bookings/quick_availability.php:33
+msgid "Load next 30 days"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:20
+msgid "Edit Appointment"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:27
+msgid "ID:"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:28
+msgid "Code:"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:29
+msgid "Created:"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:30
+msgid "View Log"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:38
+msgid "Start typing to filter..."
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:78
+msgid "Select Service"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:85
+msgid "No Active Services Found."
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:128
+msgid "Set Status"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:133
+msgid "Start Date"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:136
+msgid "Show Calendar"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:148
+msgid "+1 day"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:162
+msgid "Comment left by customer"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:178
+msgid "New"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:182
+msgid "Find"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:189
+msgid "Start typing to search..."
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:192
+#: lib/views/customer_cabinet/password_reset_form.php:3
+#: lib/views/customer_cabinet/request_password_reset_token.php:3
+msgid "cancel"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:228
+msgid "Price Breakdown"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:233
+msgid "Recalculate"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:265
+msgid "Add Transaction"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:284
+msgid "Are you sure you want to delete this appointment?"
+msgstr ""
+
+#: lib/views/bookings/quick_edit.php:286
+msgid "Delete Appointment"
+msgstr ""
+
+#: lib/views/bookings/view_booking_log.php:19
+msgid "IP Address: "
+msgstr ""
+
+#: lib/views/bookings/view_booking_log.php:20
+msgid "Source ID: "
+msgstr ""
+
+#: lib/views/bookings/view_booking_log.php:21
+msgid "Booking Page"
+msgstr ""
+
+#: lib/views/calendars/missing_resources.php:3
+msgid ""
+"Looks like you have not set work hours for these resources, or agents you "
+"selected do not offer these services."
+msgstr ""
+
+#: lib/views/calendars/missing_resources.php:4
+#: lib/views/calendars/scopes/_week.php:114
+msgid "Edit Work Hours"
+msgstr ""
+
+#: lib/views/calendars/scopes/_day.php:64
+#: lib/views/calendars/scopes/_week.php:39
+msgid "Time"
+msgstr ""
+
+#: lib/views/calendars/scopes/_day.php:142
+msgid "You have not set any working hours for this day."
+msgstr ""
+
+#: lib/views/calendars/scopes/_day.php:144
+#: lib/views/calendars/scopes/_day.php:146
+msgid "Edit Working Hours"
+msgstr ""
+
+#: lib/views/calendars/scopes/_list.php:18
+#: lib/views/calendars/scopes/_list.php:32
+#: lib/views/calendars/scopes/_list.php:40
+#: lib/views/calendars/scopes/_list.php:50
+msgid "No bookings"
+msgstr ""
+
+#: lib/views/calendars/scopes/_list.php:73
+#: lib/views/dashboard/widget_upcoming_appointments.php:64
+#, php-format
+msgid "in %s"
+msgstr ""
+
+#: lib/views/calendars/scopes/_list.php:79
+#, php-format
+msgid "Booked %d of %d"
+msgstr ""
+
+#: lib/views/calendars/scopes/_list.php:104
+#: lib/views/customers/mini_profile.php:47
+#: lib/views/dashboard/widget_upcoming_appointments.php:81
+msgid "No Upcoming Appointments"
+msgstr ""
+
+#: lib/views/calendars/scopes/_month.php:146
+msgid "Day Off"
+msgstr ""
+
+#: lib/views/calendars/scopes/_month.php:158
+#: lib/views/dashboard/widget_bookings_and_availability_timeline.php:141
+msgid "No Agents Created"
+msgstr ""
+
+#: lib/views/calendars/scopes/_month.php:159 lib/views/calendars/view.php:178
+#: lib/views/dashboard/widget_bookings_and_availability_timeline.php:142
+msgid "Create Agent"
+msgstr ""
+
+#: lib/views/calendars/scopes/_week.php:113
+msgid ""
+"Looks like you have not set your working hours yet, or the agent you "
+"selected does not offer this service."
+msgstr ""
+
+#: lib/views/calendars/view.php:39
+msgid "Day"
+msgstr ""
+
+#: lib/views/calendars/view.php:39
+msgid "Week"
+msgstr ""
+
+#: lib/views/calendars/view.php:39
+msgid "Month"
+msgstr ""
+
+#: lib/views/calendars/view.php:39
+msgid "List"
+msgstr ""
+
+#: lib/views/calendars/view.php:52
+msgid "Overlay service hours"
+msgstr ""
+
+#: lib/views/calendars/view.php:54
+msgid "For:"
+msgstr ""
+
+#: lib/views/calendars/view.php:62
+msgid "Services:"
+msgstr ""
+
+#: lib/views/calendars/view.php:69 lib/views/calendars/view.php:115
+#: lib/views/calendars/view.php:143
+msgid "Type to filter..."
+msgstr ""
+
+#: lib/views/calendars/view.php:108
+msgid "Locations:"
+msgstr ""
+
+#: lib/views/calendars/view.php:136
+#: lib/views/services/_service_index_item.php:8
+msgid "Agents:"
+msgstr ""
+
+#: lib/views/calendars/view.php:176
+msgid "No Agents or Services Created"
+msgstr ""
+
+#: lib/views/calendars/view.php:179
+msgid "Create Service"
+msgstr ""
+
+#: lib/views/customer_cabinet/_booking_tile.php:23
+#: lib/views/manage_booking_by_key/show.php:20
+#: lib/views/manage_booking_by_key/show.php:33
+#: lib/views/shared/request_reschedule_calendar.php:46
+msgid "Reschedule"
+msgstr ""
+
+#: lib/views/customer_cabinet/_booking_tile.php:70 lib/views/steps/start.php:70
+msgid "Summary"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:8
+#: lib/views/partials/_top_bar.php:69 lib/views/steps/_contact.php:5
+msgid "Logout"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:9
+#, php-format
+msgid "Welcome %s"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:12
+msgid "My Appointments"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:13
+msgid "My Information"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:23
+#: lib/views/customer_cabinet/dashboard.php:38
+#: lib/views/customer_cabinet/dashboard.php:53
+#, php-format
+msgid "%d Appointments"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:65
+msgid "No appointments found"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:72
+msgid "Your First Name"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:73
+msgid "Your Last Name"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:74
+msgid "Your Phone Number"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:75 lib/views/steps/_contact.php:22
+#: lib/views/updates/_license_form.php:18
+msgid "Your Email Address"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:83
+#: lib/views/customer_cabinet/dashboard.php:88
+msgid "Set New Password"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:85
+#: lib/views/customer_cabinet/password_reset_form.php:9
+#: lib/views/customer_cabinet/password_reset_form.php:19
+msgid "New Password"
+msgstr ""
+
+#: lib/views/customer_cabinet/dashboard.php:86
+#: lib/views/customer_cabinet/password_reset_form.php:10
+#: lib/views/customer_cabinet/password_reset_form.php:20
+msgid "Confirm New Password"
+msgstr ""
+
+#: lib/views/customer_cabinet/login.php:3
+msgid "Login to your account"
+msgstr ""
+
+#: lib/views/customer_cabinet/login.php:8
+msgid "Log me in"
+msgstr ""
+
+#: lib/views/customer_cabinet/login.php:9 lib/views/steps/_contact.php:27
+msgid "Forgot Password?"
+msgstr ""
+
+#: lib/views/customer_cabinet/login.php:12 lib/views/steps/_contact.php:34
+msgid "OR"
+msgstr ""
+
+#: lib/views/customer_cabinet/login.php:15 lib/views/steps/_contact.php:37
+msgid "Login with Facebook"
+msgstr ""
+
+#: lib/views/customer_cabinet/password_reset_form.php:5
+msgid "Change Your Password"
+msgstr ""
+
+#: lib/views/customer_cabinet/password_reset_form.php:6
+msgid ""
+"Enter a secret key you received via email to change your account password."
+msgstr ""
+
+#: lib/views/customer_cabinet/password_reset_form.php:8
+#: lib/views/customer_cabinet/password_reset_form.php:18
+msgid "Enter Your Secret Key"
+msgstr ""
+
+#: lib/views/customer_cabinet/password_reset_form.php:13
+#: lib/views/customer_cabinet/password_reset_form.php:22
+msgid "Save Password"
+msgstr ""
+
+#: lib/views/customer_cabinet/password_reset_form.php:14
+#: lib/views/customer_cabinet/password_reset_form.php:23
+msgid "Don't have a secret key?"
+msgstr ""
+
+#: lib/views/customer_cabinet/request_password_reset_token.php:5
+msgid "Reset Password Request"
+msgstr ""
+
+#: lib/views/customer_cabinet/request_password_reset_token.php:7
+msgid ""
+"We'll email you a secret key. Once you receive it, you can use it to change "
+"your password."
+msgstr ""
+
+#: lib/views/customer_cabinet/request_password_reset_token.php:12
+#: lib/views/customer_cabinet/request_password_reset_token.php:19
+msgid "Submit Request"
+msgstr ""
+
+#: lib/views/customer_cabinet/request_password_reset_token.php:13
+#: lib/views/customer_cabinet/request_password_reset_token.php:20
+msgid "Already have a key?"
+msgstr ""
+
+#: lib/views/customer_cabinet/view_summary_in_lightbox.php:2
+msgid "Booking Summary"
+msgstr ""
+
+#: lib/views/customers/_form.php:15
+msgid "Customer ID:"
+msgstr ""
+
+#: lib/views/customers/_form.php:23
+msgid ""
+"Customer has not set the password, bookings with this email are allowed "
+"without login"
+msgstr ""
+
+#: lib/views/customers/_form.php:25
+msgid ""
+"Account is protected with password, to place a booking with this email they "
+"will have to login first"
+msgstr ""
+
+#: lib/views/customers/_form.php:28
+msgid ""
+"Are you sure you want to allow this customer to book without logging in?"
+msgstr ""
+
+#: lib/views/customers/_form.php:29
+msgid "Allow booking without password"
+msgstr ""
+
+#: lib/views/customers/_form.php:56
+msgid "Notes by Customer"
+msgstr ""
+
+#: lib/views/customers/_form.php:61
+msgid "Notes by admins, only visible to admins"
+msgstr ""
+
+#: lib/views/customers/_form.php:68
+msgid "Connected to WP User."
+msgstr ""
+
+#: lib/views/customers/_form.php:68
+msgid "View WP User Profile"
+msgstr ""
+
+#: lib/views/customers/_form.php:68
+msgid "Disconnect"
+msgstr ""
+
+#: lib/views/customers/_form.php:70
+msgid "Not Connected to WP User."
+msgstr ""
+
+#: lib/views/customers/_form.php:70
+msgid "Create WP User and Connect"
+msgstr ""
+
+#: lib/views/customers/_form.php:83
+msgid "Save Customer"
+msgstr ""
+
+#: lib/views/customers/_form.php:88
+msgid ""
+"Are you sure you want to delete this customer? It will remove all "
+"appointments and transactions associated with this customer."
+msgstr ""
+
+#: lib/views/customers/_form.php:92
+msgid "Delete Customer"
+msgstr ""
+
+#: lib/views/customers/_form.php:131
+msgid "Customer does not have any bookings"
+msgstr ""
+
+#: lib/views/customers/_form.php:142
+msgid "Invalid Customer Record"
+msgstr ""
+
+#: lib/views/customers/index.php:14
+msgid "Connect to WP Users"
+msgstr ""
+
+#: lib/views/customers/index.php:27 lib/views/customers/index.php:67
+msgid "Full Name"
+msgstr ""
+
+#: lib/views/customers/index.php:30 lib/views/customers/index.php:70
+msgid "Social"
+msgstr ""
+
+#: lib/views/customers/index.php:31 lib/views/customers/index.php:71
+msgid "Total Apps"
+msgstr ""
+
+#: lib/views/customers/index.php:32 lib/views/customers/index.php:72
+msgid "Next App"
+msgstr ""
+
+#: lib/views/customers/index.php:33 lib/views/customers/index.php:73
+msgid "Time to Next"
+msgstr ""
+
+#: lib/views/customers/index.php:34 lib/views/customers/index.php:74
+msgid "WP User ID"
+msgstr ""
+
+#: lib/views/customers/index.php:40
+msgid "Search by Name"
+msgstr ""
+
+#: lib/views/customers/index.php:41
+msgid "Phone..."
+msgstr ""
+
+#: lib/views/customers/index.php:42
+msgid "Search by Email"
+msgstr ""
+
+#: lib/views/customers/index.php:100
+msgid "No Existing Customers Found"
+msgstr ""
+
+#: lib/views/customers/mini_profile.php:18
+msgid "Total"
+msgstr ""
+
+#: lib/views/customers/mini_profile.php:29
+msgid "Next Appointment"
+msgstr ""
+
+#: lib/views/customers/query_for_booking_form.php:25
+msgid "No matches found."
+msgstr ""
+
+#: lib/views/dashboard/_booking_info_box_small.php:49
+msgid "Slots Booked"
+msgstr ""
+
+#: lib/views/dashboard/widget_bookings_and_availability_timeline.php:3
+msgid "Day Preview"
+msgstr ""
+
+#: lib/views/dashboard/widget_bookings_and_availability_timeline.php:26
+msgid "Show Appointments"
+msgstr ""
+
+#: lib/views/dashboard/widget_bookings_and_availability_timeline.php:27
+msgid "Show Availability"
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:9
+msgid "Performance"
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:14
+#: lib/views/dashboard/widget_upcoming_appointments.php:20
+msgid "All locations"
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:58
+#: lib/views/dashboard/widget_daily_bookings_chart.php:68
+#: lib/views/dashboard/widget_daily_bookings_chart.php:78
+#: lib/views/dashboard/widget_daily_bookings_chart.php:88
+msgid "Previously:"
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:62
+msgid "Total number of appointments in selected period."
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:71
+msgid "Sales Revenue"
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:72
+msgid "Total sales in selected period."
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:81
+msgid "Hours Worked"
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:82
+msgid "Total hours worked across all selected agents in selected period."
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:91
+msgid "New Customers"
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:92
+msgid "Total number of new customers registered in selected period."
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:104
+msgid "No Appointments Found"
+msgstr ""
+
+#: lib/views/dashboard/widget_daily_bookings_chart.php:113
+msgid "Breakdown by Service"
+msgstr ""
+
+#: lib/views/dashboard/widget_upcoming_appointments.php:82
+#: lib/views/search/query_results.php:20
+msgid "Add Appointment"
+msgstr ""
+
+#: lib/views/debug/status.php:5
+msgid "System Info"
+msgstr ""
+
+#: lib/views/debug/status.php:10
+msgid "LatePoint Plugin Version:"
+msgstr ""
+
+#: lib/views/debug/status.php:14
+msgid "LatePoint Database Version:"
+msgstr ""
+
+#: lib/views/debug/status.php:17 lib/views/debug/status.php:56
+msgid "reset"
+msgstr ""
+
+#: lib/views/debug/status.php:21
+msgid "PHP Version:"
+msgstr ""
+
+#: lib/views/debug/status.php:26
+msgid "MySQL Version:"
+msgstr ""
+
+#: lib/views/debug/status.php:31
+msgid "WordPress Version:"
+msgstr ""
+
+#: lib/views/debug/status.php:39
+msgid "Installed Addons"
+msgstr ""
+
+#: lib/views/debug/status.php:47
+msgid "Update Available"
+msgstr ""
+
+#: lib/views/debug/status.php:52
+msgid "Core:"
+msgstr ""
+
+#: lib/views/debug/status.php:53
+msgid "Database:"
+msgstr ""
+
+#: lib/views/integrations/external_calendars.php:8
+msgid "External Calendars"
+msgstr ""
+
+#: lib/views/integrations/external_calendars.php:38
+#: lib/views/integrations/external_marketing_systems.php:43
+#: lib/views/integrations/external_meeting_systems.php:43
+#: lib/views/settings/general.php:401 lib/views/settings/notifications.php:88
+#: lib/views/settings/payments.php:54 lib/views/settings/steps.php:90
+msgid "Save Settings"
+msgstr ""
+
+#: lib/views/integrations/external_calendars.php:41
+msgid "Install Google Calendar add-on"
+msgstr ""
+
+#: lib/views/integrations/external_marketing_systems.php:12
+msgid "Marketing Systems"
+msgstr ""
+
+#: lib/views/integrations/external_marketing_systems.php:46
+msgid "Install Marketing add-ons"
+msgstr ""
+
+#: lib/views/integrations/external_meeting_systems.php:12
+msgid "Video Meeting Systems"
+msgstr ""
+
+#: lib/views/integrations/external_meeting_systems.php:46
+msgid "Install Zoom or Google Meet add-on"
+msgstr ""
+
+#: lib/views/layouts/admin.php:11
+msgid "Back to agent profile"
+msgstr ""
+
+#: lib/views/layouts/admin.php:58
+msgid "Available Template Variables"
+msgstr ""
+
+#: lib/views/layouts/admin.php:65
+msgid "Available Layout Variables"
+msgstr ""
+
+#: lib/views/notifications/_available_vars.php:3
+msgid ""
+"You can use these variables in your email and sms notifications. Just click "
+"on the variable with {} brackets and it will automatically copy to your "
+"buffer and you can simply paste it where you want to use it. It will be "
+"converted into a value for the agent/service or appointment."
+msgstr ""
+
+#: lib/views/notifications/templates_index.php:14
+msgid "To Agents"
+msgstr ""
+
+#: lib/views/notifications/templates_index.php:15
+msgid "To Customers"
+msgstr ""
+
+#: lib/views/notifications/templates_index.php:62
+msgid "Load this template"
+msgstr ""
+
+#: lib/views/partials/_side_menu.php:13
+msgid "To WordPress"
+msgstr ""
+
+#: lib/views/partials/_side_menu.php:69 lib/views/partials/_side_menu.php:70
+msgid "Back to WordPress"
+msgstr ""
+
+#: lib/views/partials/_top_bar.php:2
+msgid "Menu"
+msgstr ""
+
+#: lib/views/partials/_top_bar.php:10
+msgid "Start typing to find bookings, customers, agents or services..."
+msgstr ""
+
+#: lib/views/partials/_top_bar.php:14
+msgid "Search"
+msgstr ""
+
+#: lib/views/partials/_top_bar.php:24
+msgid "Pending Bookings"
+msgstr ""
+
+#: lib/views/process_jobs/_table_body.php:13
+msgid "Modified"
+msgstr ""
+
+#: lib/views/process_jobs/_table_body.php:14
+msgid "Deleted"
+msgstr ""
+
+#: lib/views/process_jobs/_table_body.php:21
+msgid "Are you sure you want to cancel this scheduled job?"
+msgstr ""
+
+#: lib/views/process_jobs/_table_body.php:48
+msgid "Are you sure you want to run this job?"
+msgstr ""
+
+#: lib/views/process_jobs/_table_body.php:51
+#: lib/views/process_jobs/preview_job_action.php:21
+msgid "Run Again"
+msgstr ""
+
+#: lib/views/process_jobs/_table_body.php:54
+#: lib/views/process_jobs/preview_job_action.php:24
+#: lib/views/processes/action_test_preview.php:20
+#: lib/views/processes/test_preview.php:32
+msgid "Run Now"
+msgstr ""
+
+#: lib/views/process_jobs/_table_body.php:57
+msgid "Run"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:22 lib/views/process_jobs/index.php:56
+msgid "Event"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:23 lib/views/process_jobs/index.php:57
+msgid "Process"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:24 lib/views/process_jobs/index.php:34
+#: lib/views/process_jobs/index.php:58
+msgid "Object ID"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:25 lib/views/process_jobs/index.php:59
+#: lib/views/processes/_form.php:47
+msgid "Actions"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:27 lib/views/process_jobs/index.php:61
+msgid "Run Time (UTC)"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:28 lib/views/process_jobs/index.php:62
+msgid "Run Info"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:33
+msgid "All Processes"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:36
+msgid "All Statuses"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:71
+msgid "Showing jobs"
+msgstr ""
+
+#: lib/views/process_jobs/index.php:87
+msgid "No Jobs Found"
+msgstr ""
+
+#: lib/views/processes/_form.php:11
+msgid "New Process"
+msgstr ""
+
+#: lib/views/processes/_form.php:29
+msgid "Process Name"
+msgstr ""
+
+#: lib/views/processes/_form.php:34
+msgid "Event Type"
+msgstr ""
+
+#: lib/views/processes/_form.php:59
+msgid "Add Action"
+msgstr ""
+
+#: lib/views/processes/_form.php:65 lib/views/processes/_form.php:77
+msgid "Are you sure you want to delete this process?"
+msgstr ""
+
+#: lib/views/processes/_form.php:71
+msgid "Test this process"
+msgstr ""
+
+#: lib/views/processes/_form.php:72
+msgid "Save Process"
+msgstr ""
+
+#: lib/views/processes/action_test_preview.php:7
+#: lib/views/processes/test_preview.php:7
+msgid "Test"
+msgstr ""
+
+#: lib/views/processes/index.php:25
+msgid "Add Process"
+msgstr ""
+
+#: lib/views/processes/test_preview.php:14
+msgid "Actions to trigger:"
+msgstr ""
+
+#: lib/views/processes/test_preview.php:23
+msgid ""
+"No actions were created for this process. Create actions first in order to "
+"test them."
+msgstr ""
+
+#: lib/views/search/query_results.php:20
+msgid "No Matched Appointments found."
+msgstr ""
+
+#: lib/views/search/query_results.php:33
+msgid "No Matched Customers found."
+msgstr ""
+
+#: lib/views/search/query_results.php:49
+msgid "No Matched Agents found."
+msgstr ""
+
+#: lib/views/search/query_results.php:64
+msgid "No Matched Services found."
+msgstr ""
+
+#: lib/views/search/query_results.php:64 lib/views/services/_form.php:245
+#: lib/views/services/index.php:13 lib/views/services/index.php:36
+#: lib/views/services/index.php:50 lib/views/wizard/steps/_list_services.php:36
+msgid "Add Service"
+msgstr ""
+
+#: lib/views/service_categories/_form.php:6
+#: lib/views/service_categories/new_form.php:8
+msgid "Category Name"
+msgstr ""
+
+#: lib/views/service_categories/_form.php:13
+msgid "Category Image"
+msgstr ""
+
+#: lib/views/service_categories/_form.php:19
+msgid "Save Category"
+msgstr ""
+
+#: lib/views/service_categories/_form.php:25
+msgid "Are you sure you want to remove this category?"
+msgstr ""
+
+#: lib/views/service_categories/_form.php:28
+msgid "Delete Category"
+msgstr ""
+
+#: lib/views/service_categories/index.php:18
+msgid "Create New Category"
+msgstr ""
+
+#: lib/views/service_categories/index.php:22
+msgid "Create New Service Category"
+msgstr ""
+
+#: lib/views/service_categories/new_form.php:3
+msgid "Add Service Category"
+msgstr ""
+
+#: lib/views/service_categories/new_form.php:9
+msgid "Quick Description"
+msgstr ""
+
+#: lib/views/service_categories/new_form.php:15
+msgid "Save Service Category"
+msgstr ""
+
+#: lib/views/services/_form.php:9
+msgid "Service ID:"
+msgstr ""
+
+#: lib/views/services/_form.php:17
+msgid "Category"
+msgstr ""
+
+#: lib/views/services/_form.php:17
+msgid "Add Category"
+msgstr ""
+
+#: lib/views/services/_form.php:23
+msgid "Visibility"
+msgstr ""
+
+#: lib/views/services/_form.php:23
+msgid "Visible to everyone"
+msgstr ""
+
+#: lib/views/services/_form.php:23
+msgid "Visible only to admins and agents"
+msgstr ""
+
+#: lib/views/services/_form.php:32
+msgid "Media"
+msgstr ""
+
+#: lib/views/services/_form.php:39
+msgid "Selection Image"
+msgstr ""
+
+#: lib/views/services/_form.php:40
+msgid "This image is used on a service selection step in the booking form."
+msgstr ""
+
+#: lib/views/services/_form.php:46
+msgid "Service Tile Image"
+msgstr ""
+
+#: lib/views/services/_form.php:47
+msgid ""
+"This image is used when service is listed in [latepoint_resources] shortcode."
+msgstr ""
+
+#: lib/views/services/_form.php:56
+msgid "Service Duration and Price"
+msgstr ""
+
+#: lib/views/services/_form.php:62
+msgid "Optional Duration Name"
+msgstr ""
+
+#: lib/views/services/_form.php:65 lib/views/wizard/steps/_form_service.php:8
+msgid "Duration (minutes)"
+msgstr ""
+
+#: lib/views/services/_form.php:80
+msgid "Display Price"
+msgstr ""
+
+#: lib/views/services/_form.php:83
+msgid ""
+"This price is for display purposes only, it is not the price that the "
+"customer will be charged. The Charge Amount field above controls the amount "
+"that customer will be charged for. Setting both minimum and maximum price, "
+"will show a price range on the service selection step."
+msgstr ""
+
+#: lib/views/services/_form.php:96 lib/views/settings/general.php:345
+#: lib/views/settings/notifications.php:47 lib/views/settings/payments.php:22
+#: lib/views/settings/steps.php:20 lib/views/settings/steps.php:44
+msgid "Other Settings"
+msgstr ""
+
+#: lib/views/services/_form.php:107
+msgid "Override Time Intervals"
+msgstr ""
+
+#: lib/views/services/_form.php:117
+msgid "Agents Who Offer This Service"
+msgstr ""
+
+#: lib/views/services/_form.php:151
+#, php-format
+msgid "Select locations where %s will be offering this service:"
+msgstr ""
+
+#: lib/views/services/_form.php:198
+msgid "Service Schedule"
+msgstr ""
+
+#: lib/views/services/_form.php:212
+msgid "This service is using general schedule which is set in main settings"
+msgstr ""
+
+#: lib/views/services/_form.php:225
+msgid ""
+"Service shares custom daily schedules that you set in general settings for "
+"your company, however you can add additional days with custom hours which "
+"will be specific to this service only."
+msgstr ""
+
+#: lib/views/services/_form.php:234
+msgid ""
+"Service uses the same holidays you set in general settings for your company, "
+"however you can add additional holidays for this service here."
+msgstr ""
+
+#: lib/views/services/_form.php:253
+msgid ""
+"Are you sure you want to remove this service? It will remove all "
+"appointments associated with it. You can also change status to disabled if "
+"you want to temprorary disable it instead."
+msgstr ""
+
+#: lib/views/services/_form.php:257
+msgid "Delete Service"
+msgstr ""
+
+#: lib/views/services/_service_index_item.php:14
+#: lib/views/wizard/steps/_list_services.php:17
+msgid "more"
+msgstr ""
+
+#: lib/views/services/_service_index_item.php:19
+msgid "Duration:"
+msgstr ""
+
+#: lib/views/services/_service_index_item.php:20
+#: lib/views/services/_service_index_item.php:28
+msgid "min"
+msgstr ""
+
+#: lib/views/services/_service_index_item.php:23
+msgid "Price:"
+msgstr ""
+
+#: lib/views/services/_service_index_item.php:27
+msgid "Buffer:"
+msgstr ""
+
+#: lib/views/services/index.php:47
+msgid "No Services Found"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:3
+msgid "Custom schedule"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:9
+msgid "Single Day"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:9
+msgid "Date Range"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:12
+msgid "Pick a Start"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:15
+msgid "Pick an End"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:20
+#: lib/views/settings/custom_day_schedule_form.php:22
+msgid "Pick a Date"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:21
+msgid "Pick a Start Date"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:22
+msgid "Pick an End Date"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:32
+msgid "Set Schedule"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:83
+msgid "Add another work period"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:90
+msgid "Set as Day Off"
+msgstr ""
+
+#: lib/views/settings/custom_day_schedule_form.php:90
+msgid "Save Schedule"
+msgstr ""
+
+#: lib/views/settings/default_form_fields.php:1
+msgid "Default Fields"
+msgstr ""
+
+#: lib/views/settings/default_form_fields.php:3
+msgid "Custom Fields"
+msgstr ""
+
+#: lib/views/settings/default_form_fields.php:4
+msgid "To create more fields install Custom Fields addon"
+msgstr ""
+
+#: lib/views/settings/general.php:5
+msgid "Appointment Settings"
+msgstr ""
+
+#: lib/views/settings/general.php:10
+msgid "Statuses"
+msgstr ""
+
+#: lib/views/settings/general.php:15
+msgid "Default status"
+msgstr ""
+
+#: lib/views/settings/general.php:18
+msgid "Statuses that block timeslot"
+msgstr ""
+
+#: lib/views/settings/general.php:23
+msgid "Statuses that appear on pending page"
+msgstr ""
+
+#: lib/views/settings/general.php:26
+msgid "Statuses hidden on calendar"
+msgstr ""
+
+#: lib/views/settings/general.php:31
+msgid "Additional Statuses (comma separated)"
+msgstr ""
+
+#: lib/views/settings/general.php:38
+msgid "Date and time"
+msgstr ""
+
+#: lib/views/settings/general.php:43
+msgid "Time system"
+msgstr ""
+
+#: lib/views/settings/general.php:46
+msgid "Date format"
+msgstr ""
+
+#: lib/views/settings/general.php:49
+msgid "Selectable intervals"
+msgstr ""
+
+#: lib/views/settings/general.php:52
+msgid "Show appointment end time"
+msgstr ""
+
+#: lib/views/settings/general.php:52
+msgid "Show booking end time during booking process and on summary"
+msgstr ""
+
+#: lib/views/settings/general.php:55
+msgid "Disable verbose date output"
+msgstr ""
+
+#: lib/views/settings/general.php:55
+msgid "Use number instead of name of the month when outputting dates"
+msgstr ""
+
+#: lib/views/settings/general.php:64 lib/views/settings/general.php:206
+msgid "Restrictions"
+msgstr ""
+
+#: lib/views/settings/general.php:70
+msgid "Time Restrictions"
+msgstr ""
+
+#: lib/views/settings/general.php:73
+msgid ""
+"You can set restrictions on earliest/latest dates in the future when your "
+"customer can place an appointment. You can either use a relative values like "
+"for example \"+1 month\", \"+2 weeks\", \"+5 days\", \"+3 hours\", \"+30 "
+"minutes\" (entered without quotes), or you can use a fixed date in format "
+"YYYY-MM-DD. Leave blank to remove any limitations."
+msgstr ""
+
+#: lib/views/settings/general.php:76
+msgid "Earliest Possible Booking"
+msgstr ""
+
+#: lib/views/settings/general.php:79
+msgid "Latest Possible Booking"
+msgstr ""
+
+#: lib/views/settings/general.php:86
+msgid "Quantity Restrictions"
+msgstr ""
+
+#: lib/views/settings/general.php:89
+msgid "Maximum Number of Future Bookings per Customer"
+msgstr ""
+
+#: lib/views/settings/general.php:96
+msgid "Currency Settings"
+msgstr ""
+
+#: lib/views/settings/general.php:101
+msgid "Symbol"
+msgstr ""
+
+#: lib/views/settings/general.php:106
+msgid "Symbol before the price"
+msgstr ""
+
+#: lib/views/settings/general.php:109
+msgid "Symbol after the price"
+msgstr ""
+
+#: lib/views/settings/general.php:116
+msgid "Formatting"
+msgstr ""
+
+#: lib/views/settings/general.php:121
+msgid "Thousand Separator"
+msgstr ""
+
+#: lib/views/settings/general.php:121 lib/views/settings/general.php:124
+msgid "Comma"
+msgstr ""
+
+#: lib/views/settings/general.php:121 lib/views/settings/general.php:124
+msgid "Dot"
+msgstr ""
+
+#: lib/views/settings/general.php:121
+msgid "Space"
+msgstr ""
+
+#: lib/views/settings/general.php:121
+msgid "None"
+msgstr ""
+
+#: lib/views/settings/general.php:124
+msgid "Decimal Separator"
+msgstr ""
+
+#: lib/views/settings/general.php:127
+msgid "Number of Decimals"
+msgstr ""
+
+#: lib/views/settings/general.php:136
+msgid "Phone Settings"
+msgstr ""
+
+#: lib/views/settings/general.php:141
+msgid "Countries"
+msgstr ""
+
+#: lib/views/settings/general.php:147
+msgid "Countries shown in phone field"
+msgstr ""
+
+#: lib/views/settings/general.php:147
+msgid "Show all countries"
+msgstr ""
+
+#: lib/views/settings/general.php:147
+msgid "Show selected countries"
+msgstr ""
+
+#: lib/views/settings/general.php:150
+msgid "Default Country (if not auto-detected)"
+msgstr ""
+
+#: lib/views/settings/general.php:155
+msgid "Select countries available for phone number field"
+msgstr ""
+
+#: lib/views/settings/general.php:163
+msgid "Validation"
+msgstr ""
+
+#: lib/views/settings/general.php:166
+msgid "Validate phone typed fields if they are set as required"
+msgstr ""
+
+#: lib/views/settings/general.php:166
+msgid ""
+"Reject invalid phone for customers and agents if the phone field is set as "
+"required"
+msgstr ""
+
+#: lib/views/settings/general.php:167
+msgid "Format phone number on input"
+msgstr ""
+
+#: lib/views/settings/general.php:167
+msgid ""
+"Applies formatting on phone fields based on the country selected (not "
+"recommended for countries that have multiple NSN lengths)"
+msgstr ""
+
+#: lib/views/settings/general.php:168
+msgid "Show country dial code next to flag"
+msgstr ""
+
+#: lib/views/settings/general.php:168
+msgid ""
+"If enabled, will show a country code next to a flag, for example +1 for "
+"United States"
+msgstr ""
+
+#: lib/views/settings/general.php:175
+msgid "Appearance Settings"
+msgstr ""
+
+#: lib/views/settings/general.php:180
+msgid "Visual Style"
+msgstr ""
+
+#: lib/views/settings/general.php:183
+msgid "Color Scheme for Booking Form"
+msgstr ""
+
+#: lib/views/settings/general.php:184
+msgid "Border Style"
+msgstr ""
+
+#: lib/views/settings/general.php:189
+msgid "Date and Time Picker"
+msgstr ""
+
+#: lib/views/settings/general.php:192
+msgid "Show Time Slots as"
+msgstr ""
+
+#: lib/views/settings/general.php:193
+msgid "Hide time picker when only one time slot is available"
+msgstr ""
+
+#: lib/views/settings/general.php:194
+msgid "Hide slot availability count"
+msgstr ""
+
+#: lib/views/settings/general.php:201
+msgid "Timeslot Availability Logic"
+msgstr ""
+
+#: lib/views/settings/general.php:209
+msgid "Location can only be used by one agent at a time"
+msgstr ""
+
+#: lib/views/settings/general.php:209
+msgid "At any given location, only one agent can be booked at a time"
+msgstr ""
+
+#: lib/views/settings/general.php:210
+msgid "Agents can only be present in one location at a time"
+msgstr ""
+
+#: lib/views/settings/general.php:210
+msgid ""
+"If an agent is booked at one location, he will not be able to accept any "
+"bookings for the same timeslot at other locations"
+msgstr ""
+
+#: lib/views/settings/general.php:215
+msgid "Permissions"
+msgstr ""
+
+#: lib/views/settings/general.php:218
+msgid "One agent can perform different services simultaneously"
+msgstr ""
+
+#: lib/views/settings/general.php:218
+msgid ""
+"Allows an agent to be booked for different services within the same timeslot"
+msgstr ""
+
+#: lib/views/settings/general.php:225
+msgid "Customer Settings"
+msgstr ""
+
+#: lib/views/settings/general.php:230
+msgid "Rescheduling"
+msgstr ""
+
+#: lib/views/settings/general.php:233
+msgid "Allow customers reschedule their bookings"
+msgstr ""
+
+#: lib/views/settings/general.php:233
+msgid ""
+"If enable, shows a button on customer cabinet to reschedule an appointment"
+msgstr ""
+
+#: lib/views/settings/general.php:235
+msgid "Set restriction on when customer can reschedule"
+msgstr ""
+
+#: lib/views/settings/general.php:238
+msgid "Can reschedule when it is at least"
+msgstr ""
+
+#: lib/views/settings/general.php:245 lib/views/settings/general.php:277
+msgid "before appointment start time"
+msgstr ""
+
+#: lib/views/settings/general.php:248
+msgid "Change booking status when customer reschedules"
+msgstr ""
+
+#: lib/views/settings/general.php:251
+msgid "Change status to:"
+msgstr ""
+
+#: lib/views/settings/general.php:262
+msgid "Cancellation"
+msgstr ""
+
+#: lib/views/settings/general.php:265
+msgid "Allow customers cancel their bookings"
+msgstr ""
+
+#: lib/views/settings/general.php:265
+msgid "If enable, shows a button on customer cabinet to cancel an appointment"
+msgstr ""
+
+#: lib/views/settings/general.php:267
+msgid "Set restriction on when customer can cancel"
+msgstr ""
+
+#: lib/views/settings/general.php:270
+msgid "Can cancel when it is at least"
+msgstr ""
+
+#: lib/views/settings/general.php:285
+msgid "Customer Cabinet"
+msgstr ""
+
+#: lib/views/settings/general.php:289
+msgid "Shortcode for contents of New Appointment tab"
+msgstr ""
+
+#: lib/views/settings/general.php:292
+msgid "You can set attributes for a new appointment button tile in a format"
+msgstr ""
+
+#: lib/views/settings/general.php:293
+msgid "Attributes for New Appointment button"
+msgstr ""
+
+#: lib/views/settings/general.php:299
+msgid "Authentication"
+msgstr ""
+
+#: lib/views/settings/general.php:302
+msgid "Use WordPress users as customers"
+msgstr ""
+
+#: lib/views/settings/general.php:302
+msgid "Customers can login using their WordPress credentials"
+msgstr ""
+
+#: lib/views/settings/general.php:303
+msgid "Require customers to set password"
+msgstr ""
+
+#: lib/views/settings/general.php:303
+msgid "Shows password field on registration step"
+msgstr ""
+
+#: lib/views/settings/general.php:304
+msgid "Remove login and register tabs"
+msgstr ""
+
+#: lib/views/settings/general.php:304
+msgid ""
+"This will disable ability for customers to login or register on booking form"
+msgstr ""
+
+#: lib/views/settings/general.php:305
+msgid "Hide \"Create Account\" prompt on confirmation step"
+msgstr ""
+
+#: lib/views/settings/general.php:310
+msgid "Social Login"
+msgstr ""
+
+#: lib/views/settings/general.php:313
+msgid "Enable login with Google"
+msgstr ""
+
+#: lib/views/settings/general.php:313
+msgid "Display Google Login button on customer login and registration forms"
+msgstr ""
+
+#: lib/views/settings/general.php:315
+msgid "Google Client ID"
+msgstr ""
+
+#: lib/views/settings/general.php:316
+msgid "Google Client Secret"
+msgstr ""
+
+#: lib/views/settings/general.php:318
+msgid "Enable login with Facebook"
+msgstr ""
+
+#: lib/views/settings/general.php:318
+msgid "Display Facebook Login button on customer login and registration forms"
+msgstr ""
+
+#: lib/views/settings/general.php:320
+msgid "Facebook App ID"
+msgstr ""
+
+#: lib/views/settings/general.php:321
+msgid "Facebook App Secret"
+msgstr ""
+
+#: lib/views/settings/general.php:329
+msgid "Setup Pages"
+msgstr ""
+
+#: lib/views/settings/general.php:334
+msgid "Set Page URLs"
+msgstr ""
+
+#: lib/views/settings/general.php:337
+msgid "Customer Dashboard Page URL"
+msgstr ""
+
+#: lib/views/settings/general.php:338
+msgid "Customer Login Page URL"
+msgstr ""
+
+#: lib/views/settings/general.php:350
+msgid "Business Information"
+msgstr ""
+
+#: lib/views/settings/general.php:355
+msgid "Company Logo"
+msgstr ""
+
+#: lib/views/settings/general.php:360
+msgid "Company Name"
+msgstr ""
+
+#: lib/views/settings/general.php:363
+msgid "Business Phone"
+msgstr ""
+
+#: lib/views/settings/general.php:366
+msgid "Business Address"
+msgstr ""
+
+#: lib/views/settings/general.php:373
+msgid "Calendar Settings"
+msgstr ""
+
+#: lib/views/settings/general.php:376
+msgid "Daily Calendar Minimum Height (in pixels)"
+msgstr ""
+
+#: lib/views/settings/general.php:377
+msgid ""
+"You can use variables in your booking template, they will be replaced with a "
+"value for the booking. "
+msgstr ""
+
+#: lib/views/settings/general.php:378
+msgid "Booking tile information to display on calendar"
+msgstr ""
+
+#: lib/views/settings/notifications.php:16
+#, php-format
+msgid "%s Processors"
+msgstr ""
+
+#: lib/views/settings/notifications.php:50
+msgid "Email System Settings"
+msgstr ""
+
+#: lib/views/settings/notifications.php:55
+msgid "Email Layout"
+msgstr ""
+
+#: lib/views/settings/notifications.php:58
+msgid ""
+"This layout is used for your emails. You can customize it below and use "
+"{{content}} variable to insert content of the email that is generated by the "
+"Process that was triggered. Go to Processes to manage actual content of the "
+"email that is being sent."
+msgstr ""
+
+#: lib/views/settings/notifications.php:60
+msgid "Show layout variables"
+msgstr ""
+
+#: lib/views/settings/notifications.php:66
+msgid "Password Reset"
+msgstr ""
+
+#: lib/views/settings/notifications.php:68
+msgid ""
+"This email content will be used for password reset requests. Use {{token}} "
+"variable to insert a generated token, which is needed to reset the password."
+msgstr ""
+
+#: lib/views/settings/notifications.php:73
+msgid "Email Message"
+msgstr ""
+
+#: lib/views/settings/pages.php:2
+msgid "Customer Login"
+msgstr ""
+
+#: lib/views/settings/pages.php:4 lib/views/settings/pages.php:15
+msgid "Select Page"
+msgstr ""
+
+#: lib/views/settings/pages.php:13
+msgid "Customer Profile"
+msgstr ""
+
+#: lib/views/settings/payments.php:4
+msgid "Payment Processors"
+msgstr ""
+
+#: lib/views/settings/payments.php:25
+msgid "Payment Settings"
+msgstr ""
+
+#: lib/views/settings/payments.php:30
+msgid "Environment"
+msgstr ""
+
+#: lib/views/settings/payments.php:33
+msgid "Live (Production)"
+msgstr ""
+
+#: lib/views/settings/payments.php:33
+msgid "Testing (Development)"
+msgstr ""
+
+#: lib/views/settings/payments.php:33
+msgid "Demo"
+msgstr ""
+
+#: lib/views/settings/payments.php:39
+msgid "Local Payments"
+msgstr ""
+
+#: lib/views/settings/payments.php:42
+msgid "Allow Paying Locally"
+msgstr ""
+
+#: lib/views/settings/payments.php:42
+msgid "Show \"Pay Later\" payment option"
+msgstr ""
+
+#: lib/views/settings/payments.php:50
+msgid "Install Payment Gateway Add-on"
+msgstr ""
+
+#: lib/views/settings/roles.php:1
+msgid "User Roles"
+msgstr ""
+
+#: lib/views/settings/roles.php:6
+msgid "Install Roles Manager Add-on"
+msgstr ""
+
+#: lib/views/settings/steps.php:1
+msgid "Step Editing"
+msgstr ""
+
+#: lib/views/settings/steps.php:25
+msgid "Booking Form Settings"
+msgstr ""
+
+#: lib/views/settings/steps.php:31
+msgid "Agent Display"
+msgstr ""
+
+#: lib/views/settings/steps.php:34
+msgid "Show link to leard more about agents"
+msgstr ""
+
+#: lib/views/settings/steps.php:34
+msgid "A link to open information about agent will be added to each agent tile"
+msgstr ""
+
+#: lib/views/settings/steps.php:35
+msgid "Hide agent name from summary and confirmation"
+msgstr ""
+
+#: lib/views/settings/steps.php:35
+msgid "Check if you want to hide agent name from showing up"
+msgstr ""
+
+#: lib/views/settings/steps.php:36
+msgid "Add \"Any Agent\" option to agent selection"
+msgstr ""
+
+#: lib/views/settings/steps.php:36
+msgid "Customers can pick \"Any agent\" and system will find a matching agent"
+msgstr ""
+
+#: lib/views/settings/steps.php:38
+msgid "If \"Any Agent\" is selected then assign booking to"
+msgstr ""
+
+#: lib/views/settings/steps.php:47
+msgid "Show service categories"
+msgstr ""
+
+#: lib/views/settings/steps.php:47
+msgid "If turned on, services will be displayed in categories"
+msgstr ""
+
+#: lib/views/settings/steps.php:48
+msgid "Skip verification step"
+msgstr ""
+
+#: lib/views/settings/steps.php:48
+msgid "Sends user directly to confirmation step, skipping any confirmation"
+msgstr ""
+
+#: lib/views/settings/steps.php:54
+msgid "Left Panel"
+msgstr ""
+
+#: lib/views/settings/steps.php:57
+msgid "Content for a bottom part of a booking side panel"
+msgstr ""
+
+#: lib/views/settings/steps.php:62
+msgid "Conversion Tracking"
+msgstr ""
+
+#: lib/views/settings/steps.php:66
+msgid ""
+"You can include some javascript or html that will be appended to the "
+"confirmation step. For example you can track ad conversions by triggering a "
+"tracking code or a facebook pixel. You can use these variables within your "
+"code. Click on the variable to copy."
+msgstr ""
+
+#: lib/views/settings/steps.php:73 lib/views/shared/_template_variables.php:9
+msgid "Appointment ID#:"
+msgstr ""
+
+#: lib/views/settings/steps.php:74
+msgid "Service ID#:"
+msgstr ""
+
+#: lib/views/settings/steps.php:75
+msgid "Agent ID#:"
+msgstr ""
+
+#: lib/views/settings/steps.php:76
+msgid "Customer ID#:"
+msgstr ""
+
+#: lib/views/settings/steps.php:77 lib/views/shared/_template_variables.php:28
+msgid "Total Price:"
+msgstr ""
+
+#: lib/views/settings/steps.php:82
+msgid "Enter Tracking code here"
+msgstr ""
+
+#: lib/views/settings/work_periods.php:5
+msgid "General Weekly Schedule"
+msgstr ""
+
+#: lib/views/settings/work_periods.php:12
+msgid "Save Weekly Schedule"
+msgstr ""
+
+#: lib/views/settings/work_periods.php:36
+msgid "Select Date"
+msgstr ""
+
+#: lib/views/shared/_business_variables.php:2
+msgid "Business Info"
+msgstr ""
+
+#: lib/views/shared/_business_variables.php:4
+msgid "Customer Cabinet URL:"
+msgstr ""
+
+#: lib/views/shared/_business_variables.php:5
+msgid "Business logo HTML:"
+msgstr ""
+
+#: lib/views/shared/_business_variables.php:6
+msgid "Business logo URL:"
+msgstr ""
+
+#: lib/views/shared/_business_variables.php:7
+msgid "Business Address:"
+msgstr ""
+
+#: lib/views/shared/_business_variables.php:8
+msgid "Business Phone:"
+msgstr ""
+
+#: lib/views/shared/_business_variables.php:9
+msgid "Business Name:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:2
+msgid "Direct URLs to Manage Appointment"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:4
+msgid "For Agent:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:5
+msgid "For Customer:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:7
+msgid "Appointment"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:10
+msgid "Confirmation Code:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:11
+msgid "Service Name:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:12
+msgid "Service Category:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:13
+msgid "Start Date:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:14
+msgid "Start Time:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:15
+msgid "End Time:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:16
+msgid "Service Duration:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:24
+msgid "Payment Status:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:25
+#: lib/views/shared/_template_variables.php:74
+msgid "Payment Portion:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:26
+#: lib/views/shared/_template_variables.php:70
+msgid "Payment Method:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:27
+msgid "Payment Amount:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:34
+#: lib/views/shared/_template_variables.php:49
+msgid "Full Name:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:35
+#: lib/views/shared/_template_variables.php:47
+msgid "First Name:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:36
+#: lib/views/shared/_template_variables.php:48
+msgid "Last Name:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:37
+msgid "Email Address:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:38
+#: lib/views/shared/_template_variables.php:52
+msgid "Phone:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:39
+msgid "Comments:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:40
+msgid "Password Reset Token:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:50
+msgid "Display Name:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:51
+msgid "Email:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:53
+msgid "Additional Emails:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:54
+msgid "Additional Phone Numbers:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:60
+msgid "Name:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:61
+msgid "Full Address:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:67
+msgid "Token:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:68
+msgid "Amount:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:69
+msgid "Processor:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:71
+msgid "Funds Status:"
+msgstr ""
+
+#: lib/views/shared/_template_variables.php:73
+msgid "Notes:"
+msgstr ""
+
+#: lib/views/shared/access_not_allowed.php:1
+msgid "You are not allowed to access this page"
+msgstr ""
+
+#: lib/views/shared/process_reschedule_request.php:16
+msgid "Your appointment has been rescheduled."
+msgstr ""
+
+#: lib/views/shared/process_reschedule_request.php:18
+msgid "New Appointment Time"
+msgstr ""
+
+#: lib/views/shared/request_reschedule_calendar.php:13
+msgid "Select date and time"
+msgstr ""
+
+#: lib/views/shared/request_reschedule_calendar.php:24
+#: lib/views/steps/_datepicker.php:9
+msgid "Pick a slot for"
+msgstr ""
+
+#: lib/views/steps/_agents.php:7 lib/views/steps/_agents.php:13
+msgid "Any Agent"
+msgstr ""
+
+#: lib/views/steps/_confirmation.php:29
+msgid "Set Your Password"
+msgstr ""
+
+#: lib/views/steps/_confirmation.php:30
+#: lib/views/wizard/steps/_form_agent.php:30
+#: lib/views/wizard/steps/_form_service.php:39
+msgid "Save"
+msgstr ""
+
+#: lib/views/steps/_confirmation.php:35
+msgid "You can now manage your appointments in your personal cabinet"
+msgstr ""
+
+#: lib/views/steps/_confirmation.php:37
+msgid "Open My Cabinet"
+msgstr ""
+
+#: lib/views/steps/_confirmation.php:41
+msgid ""
+"Did you know that you can create an account to manage your reservations and "
+"schedule new appointments?"
+msgstr ""
+
+#: lib/views/steps/_confirmation.php:43
+msgid "Create Account"
+msgstr ""
+
+#: lib/views/steps/_contact.php:4
+msgid "Contact Information"
+msgstr ""
+
+#: lib/views/steps/_contact.php:5
+msgid "Not You?"
+msgstr ""
+
+#: lib/views/steps/_contact.php:13
+msgid "Already have an account?"
+msgstr ""
+
+#: lib/views/steps/_contact.php:23
+msgid "Your Password"
+msgstr ""
+
+#: lib/views/steps/_contact.php:26
+msgid "Log Me In"
+msgstr ""
+
+#: lib/views/steps/_payment.php:11
+msgid "When would you like to pay for the service?"
+msgstr ""
+
+#: lib/views/steps/_payment.php:12
+msgid ""
+"You can either pay now or pay locally on arrival. You will be able to select "
+"payment method in the next step."
+msgstr ""
+
+#: lib/views/steps/_payment.php:17
+msgid "Pay Now"
+msgstr ""
+
+#: lib/views/steps/_payment.php:17
+msgid "Pay Later"
+msgstr ""
+
+#: lib/views/steps/_payment.php:38
+msgid "How would you like to make a payment?"
+msgstr ""
+
+#: lib/views/steps/_payment.php:39
+msgid "You can select payment method from the list below."
+msgstr ""
+
+#: lib/views/steps/_payment.php:56
+msgid "How much do you want to pay now?"
+msgstr ""
+
+#: lib/views/steps/_payment.php:57
+msgid ""
+"You can either make a full payment now or just leave a deposit and pay the "
+"rest after."
+msgstr ""
+
+#: lib/views/steps/_payment.php:64
+msgid "Full Amount"
+msgstr ""
+
+#: lib/views/steps/_payment.php:70
+msgid "Deposit Only"
+msgstr ""
+
+#: lib/views/steps/_services.php:11
+msgid "Select Service Duration"
+msgstr ""
+
+#: lib/views/steps/_services.php:12
+msgid ""
+"You need to select service duration, the price of your service will depend "
+"on duration."
+msgstr ""
+
+#: lib/views/steps/_services.php:16
+msgid "How Many People?"
+msgstr ""
+
+#: lib/views/steps/_services.php:17
+msgid "Maximum capacity is"
+msgstr ""
+
+#: lib/views/steps/_services.php:21
+msgid "Person"
+msgstr ""
+
+#: lib/views/steps/_services.php:21
+msgid "People"
+msgstr ""
+
+#: lib/views/steps/_services.php:21
+msgid "Qty"
+msgstr ""
+
+#: lib/views/steps/_verify.php:3
+msgid ""
+"Double check your booking information, you can go back to edit it or click "
+"submit button to confirm your booking."
+msgstr ""
+
+#: lib/views/steps/partials/_booking_summary.php:102
+msgid "Cost Breakdown"
+msgstr ""
+
+#: lib/views/steps/partials/_contact_form.php:8
+msgid "Confirm Password"
+msgstr ""
+
+#: lib/views/steps/partials/_contact_form.php:10
+msgid "Add Comments"
+msgstr ""
+
+#: lib/views/steps/partials/_limit_reached.php:3
+msgid "Limit Reached!"
+msgstr ""
+
+#: lib/views/steps/partials/_limit_reached.php:4
+msgid ""
+"You have reached the limit for reservations allowed per customer. Please "
+"contact us if you wish to modify your existing appointment."
+msgstr ""
+
+#: lib/views/steps/start.php:41
+msgid "Selected"
+msgstr ""
+
+#: lib/views/steps/start.php:61 lib/views/wizard/setup.php:10
+msgid "Back"
+msgstr ""
+
+#: lib/views/steps/start.php:63
+msgid "Submit"
+msgstr ""
+
+#: lib/views/steps/start.php:63
+msgid "Next Step"
+msgstr ""
+
+#: lib/views/transactions/edit_form.php:13
+msgid "Are you sure you want to delete this transaction?"
+msgstr ""
+
+#: lib/views/transactions/edit_form.php:20
+msgid "New Transaction"
+msgstr ""
+
+#: lib/views/transactions/edit_form.php:20
+msgid "Edit Transaction"
+msgstr ""
+
+#: lib/views/transactions/edit_form.php:31
+msgid "Confirmation Code"
+msgstr ""
+
+#: lib/views/transactions/edit_form.php:52
+msgid "Notes"
+msgstr ""
+
+#: lib/views/transactions/index.php:43
+msgid "Customer Name"
+msgstr ""
+
+#: lib/views/transactions/index.php:100
+msgid "No Transactions Found"
+msgstr ""
+
+#: lib/views/updates/_license_form.php:2
+msgid "License Key Registration"
+msgstr ""
+
+#: lib/views/updates/_license_form.php:11
+msgid ""
+"Please enter your LatePoint license key to receive free plugin updates and "
+"install addons."
+msgstr ""
+
+#: lib/views/updates/_license_form.php:15
+msgid "Your Name"
+msgstr ""
+
+#: lib/views/updates/_license_form.php:23
+msgid "License Key"
+msgstr ""
+
+#: lib/views/updates/_license_form.php:27
+msgid "Activate Licence Key"
+msgstr ""
+
+#: lib/views/updates/check_version_status.php:6
+msgid "Update is Available"
+msgstr ""
+
+#: lib/views/updates/check_version_status.php:10
+#, php-format
+msgid "LatePoint %s is available."
+msgstr ""
+
+#: lib/views/updates/check_version_status.php:11
+#, php-format
+msgid "You're running version %s"
+msgstr ""
+
+#: lib/views/updates/check_version_status.php:27
+#: lib/views/updates/check_version_status.php:44
+msgid "View Changelog"
+msgstr ""
+
+#: lib/views/updates/check_version_status.php:36
+msgid "You are using the latest version"
+msgstr ""
+
+#: lib/views/updates/check_version_status.php:39
+msgid "Installed Version: "
+msgstr ""
+
+#: lib/views/updates/check_version_status.php:48
+msgid "Official Website"
+msgstr ""
+
+#: lib/views/updates/status.php:3
+msgid "Checking Version Status"
+msgstr ""
+
+#: lib/views/wizard/setup.php:2
+msgid "Skip setup"
+msgstr ""
+
+#: lib/views/wizard/setup.php:11
+msgid "Next"
+msgstr ""
+
+#: lib/views/wizard/steps/_agents.php:1 lib/views/wizard/steps/_services.php:1
+#: lib/views/wizard/steps/_settings.php:1
+#: lib/views/wizard/steps/_work_periods.php:1
+#, php-format
+msgid "Step %d of %d"
+msgstr ""
+
+#: lib/views/wizard/steps/_complete.php:5
+msgid "Open Dashboard"
+msgstr ""
+
+#: lib/views/wizard/steps/_form_agent.php:19
+msgid "Upload Agent's Photo"
+msgstr ""
+
+#: lib/views/wizard/steps/_form_agent.php:19
+msgid "Remove Agent's Photo"
+msgstr ""
+
+#: lib/views/wizard/steps/_form_service.php:12
+msgid "Upload Image for Service"
+msgstr ""
+
+#: lib/views/wizard/steps/_intro.php:2
+msgid "Setup Wizard"
+msgstr ""
+
+#: lib/views/wizard/steps/_intro.php:3
+msgid ""
+"Thank you for installing LatePoint, we will walk you through a quick setup "
+"process to add services, agents and set working hours for your business."
+msgstr ""
+
+#: lib/views/wizard/steps/_intro.php:4
+msgid "Get Started"
+msgstr ""
+
+#: lib/views/wizard/steps/_list_services.php:23
+msgid "Are you sure you want to remove this service?"
+msgstr ""
+
+#: lib/views/wizard/steps/_services.php:3
+msgid ""
+"When adding a service, make sure to select agents offering it. You can set "
+"custom schedules and prices for each service in LatePoint admin panel later."
+msgstr ""
+
+#: lib/views/wizard/steps/_settings.php:2
+msgid "Add services you offer"
+msgstr ""
+
+#: lib/views/wizard/steps/_settings.php:3
+msgid ""
+"Day and, through to this separated is rhetoric regretting the magnitude, "
+"perception is keep in"
+msgstr ""
+
+#: lib/views/wizard/steps/_settings.php:7
+msgid "Plugin Purchase Code"
+msgstr ""
+
+#: lib/views/wizard/steps/_work_periods.php:2
+msgid "Set Your Work Hours"
+msgstr ""
+
+#: lib/views/wizard/steps/_work_periods.php:3
+msgid ""
+"These will be your default work hours for all your locations, agents and "
+"services. You can set custom hours for each agent, service or location in "
+"LatePoint admin panel."
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Appointment Scheduling Software for WordPress"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://latepoint.com"
+msgstr ""
